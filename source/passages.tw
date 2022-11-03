@@ -1,8 +1,14 @@
 :: Start
-This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
+You are a pirate at a dock when your whole crew gets up and leaves you. [[Keep Going|Passage 2]]
 
 :: Passage 2
-I'm in!
+Your new goal is to build up a new crew and continue on your adventures.
 
 :: Passage 3
-You're a pirate
+Test
+
+:: Passage 4
+Test
+
+:: Passage 5
+Test
