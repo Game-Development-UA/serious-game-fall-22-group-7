@@ -1,5 +1,5 @@
 :: Start
-You awake on the floor of a tavern, with nothing but your dirty clothes and a bottle of rum in hand. You are a pirate and you've just had a bottle smashed against the back of your head by one of your crewmates [[Keep Going|Passage 2]]
+You awake on the floor of a tavern, with nothing but your dirty clothes and a bottle of rum in hand. You are a pirate and you've just had a bottle smashed against the back of your head by one of your crewmates. [[Get up|Passage 2]]
 
 :: Passage 2
 Your new goal is to build up a new crew and continue on your adventures. [[Keep Going|Passage 3]]
