@@ -1,2 +1,18 @@
 :: Back
-You are in Alex's file. [[Go Back|First Loot]]
+You stumble onto the dock and notice three pirate captains looking to expand their crews.
+First is a ship ... [[Join the black ship|Ship1]]
+Next you can join ... [[Join the brown ship|Ship2]]
+Lastly, you can join .. [[Join the green ship|Ship3]]
+
+:: Ship1
+
+:: Ship2
+
+:: Ship3
+
+
+
+
+
+:: Return
+You board your ship and prepare to go on your first adventure as a deckhand.[[Climb Aboard|First Loot]]
