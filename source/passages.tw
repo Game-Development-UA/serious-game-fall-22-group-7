@@ -1,29 +1,19 @@
 :: Start
-You awake on the floor of a tavern, with nothing but your dirty clothes and a bottle of rum in hand. You are a pirate and you've just had a bottle smashed against the back of your head by one of your crewmates. [[Get up|Passage 2]]
-
-
+You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You are a pirate and you were just hit in the head by one of your crewmates. [[Get up|Passage 2]]
 
 :: Passage 2
-Your new goal is to build up a new crew and continue on your adventures. [[Keep Going|Ship Choice]]
-
-
+ [[Keep Going|Passage 3]]
 
 :: Ship Choice
-Test [[Keep Going|Alex.tw]]
-
-
+Test [[Keep Going|Passage 4]]
 
 :: First Loot
-Test [[Keep Going|Ship Batttle]]
-
-
+Test [[Keep Going|Passage 5]]
 
 :: Ship Batttle
-Test [[Keep Going|Big Treasure]]
-
-
+Test [[Keep Going|Passage 6]]
 
 :: Big Treasure
-Test [[Keep Going|]]
+Test [[Keep Going|Passage 6]]
 
-
+hi
