@@ -2,16 +2,16 @@
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You are a pirate and you were just hit in the head by one of your crewmates. [[Get up|Passage 2]]
 
 :: Passage 2
- [[Keep Going|Ship Choice]]
+ [[Keep Going|Back]]
 
 :: Ship Choice
-Test [[Keep Going|Passage 4]]
+You got back! [[Keep Going|First Loot]]
 
 :: First Loot
-Test [[Keep Going|Passage 5]]
+Test [[Keep Going|Ship Batttle]]
 
 :: Ship Batttle
-Test [[Keep Going|Passage 6]]
+Test [[Keep Going|Big Treasure]]
 
 :: Big Treasure
-Test [[Keep Going|Passage 6]]
+Test
