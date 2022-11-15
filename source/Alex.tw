@@ -5,14 +5,44 @@ Next you can join ... [[Join the brown ship|Ship2]]
 Lastly, you can join .. [[Join the green ship|Ship3]]
 
 :: Ship1
+<<set $speed to 3>>
+<<set $defense to 6>>
+<<set $attack to 10>>
+Add intro narrative for the black ship.
+[[You see the captain of the black ship.|Black Captain]]
 
 :: Ship2
+<<set $speed to 4>>
+<<set $defense to 9>>
+<<set $attack to 7>>
+Add intro narrative for the brown ship.
+[[You see the captain of the brown ship.|Brown Captain]]
+
 
 :: Ship3
+<<set $speed to 10>>
+<<set $defense to 3>>
+<<set $attack to 5>>
+Add intro narrative for the green ship.
+[[You see the captain of the green ship.|Green Captain]]
 
 
 
+:: Black Captain
+Add narrative for the black captain.
+[[It's time to go on our first mission!|Return from Ship]]
+
+
+:: Brown Captain
+Add narrative for the brown captain.
+[[It's time to go on our first mission!|Return from Ship]]
+
+
+
+:: Green Captain
+Add narrative for the green captain.
+[[It's time to go on our first mission!|Return from Ship]]
 
 
 :: Return from Ship
-You board your ship and prepare to go on your first adventure as a deckhand.[[Climb Aboard|First Loot]]
+Add some default getting on the ship and preparing for mission 1.[[Climb Aboard|First Loot]]
