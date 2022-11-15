@@ -5,15 +5,17 @@ Getting up, you look around and realize that you are surrounded by many unfamili
 Standing there watching the many scenes unfold around you, a pirate comes up to you and asks for your name.
 You tell them it is [blank] and [[walk away|Walk Around]] or continue [[talking|Pirate Talk]]
 
-:: Walk Around
-
-
 :: Pirate Talk
 
 
+:: Walk Around
+Walking away from the smelly pirate, you realize that you too are in rough shape and penniless.
+You decide to talk to the [[bartender|Bartender]] or sit at a table of pirates playing a game of [[dice|Dice]]
+
+:: Bartender
 
 
-
+:: Dice
 
 
 
