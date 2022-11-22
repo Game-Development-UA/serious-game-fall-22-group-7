@@ -2,12 +2,13 @@
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.
 
-:: Options
+:: Option 1
 There are two posted announcements that end up catching your eye...
 A help wanted post that details a crewmate on a trading ship going to the Americas. It pays well.[[Accept the job|Job]]
-A post for a bounty describing the capture of a man with a scruffy grey beard. It also details a ship crew with an open 
-position that will soon set sail in search of this man. The reward is 1000 pieces of gold[[Accept the bounty|Bounty]]
 
+:: Option 2
+A post for a bounty describing the capture of a man with a scruffy grey beard. It also details a ship crew with an open 
+position that will soon set sail in search of this man. The reward is 1000 pieces of gold.[[Accept the bounty|Bounty]]
 
 :: Job
 You go through the necessary steps in becoming a crewmate for this big trading ship.
