@@ -2,7 +2,7 @@
 <<set $hp to 20>>
 <<set $gold to 0>>
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
-information about upcoming events, and much more information about various things.[[here|Options]]
+information about upcoming events, and much more information about various things.[[Next|Options]]
 
 :: Options
 There are two posted announcements that end up catching your eye...
@@ -13,6 +13,7 @@ position that will soon set sail in search of this man. The reward is 1000 piece
 :: Job
 <<set $gold to 5>>
 You go through the necessary steps in becoming a crewmate for this big trading ship. You are given 5 pieces of gold as your sign on bonus.
+Before your captain and crewmates
 
 :: Bounty
 <<set $gold to 5>>
