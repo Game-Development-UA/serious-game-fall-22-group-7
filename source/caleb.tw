@@ -3,7 +3,6 @@
 <<set $gold to 0>>
 <<set $grappling to false>>
 <<set $kerosene to 0>>
-<<set $telescope to false>>
 <<set $cutlass to false>>
 <<set $dagger to false>>
 <<set $musket to false>>
@@ -44,10 +43,6 @@ You have $gold gold.
 [[Jar of kerosene|Kerosene]] - 1 Gold
 <</if>>
 
-<<if $telescope == false>>
-[[Telescope|Telescope]] - 2 Gold
-<</if>>
-
 <<if $cutlass == false>>
 [[Cutlass|Cutlass]] - 5 Gold
 <</if>>
@@ -76,11 +71,6 @@ Thanks![[Back|Market]]
 :: Kerosene
 <<set $kerosene to $kerosene + 1>>
 <<set $gold to $gold - 1>>
-Thanks![[Back|Market]]
-
-:: Telescope
-<<set $telescope to true>>
-<<set $gold to $gold - 2>>
 Thanks![[Back|Market]]
 
 :: Cutlass
