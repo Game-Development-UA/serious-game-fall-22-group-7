@@ -43,7 +43,7 @@ You have $gold gold.
 [[Jar of kerosene|Kerosene]] - 1 Gold
 <</if>>
 
-<<if $cutlass == false>>
+<<if $cutlass == false and $gold >= 5>>
 [[Cutlass|Cutlass]] - 5 Gold
 <</if>>
 
@@ -104,7 +104,8 @@ The ship anchor is hoisted and you sail off to the Americas.
 [[Investigate the Ship|Investigate]]
 
 :: Investigate
-You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck.
+You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck. 
+The captain looks middle ages with an eyepatch on one eye, a long ponytail, and blackbeard.
 You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
 [[Join them|Reject]] 
 
@@ -147,4 +148,51 @@ On the table you see there is a map with some drawings on it.
 [[Take the coat|Leave Cabin]]
 
 :: Leave Cabin
-You roll up the map and you shove it down your pockets so nobody gets suspicious.
+You roll up the map and you shove it down your pockets so nobody gets suspicious. 
+[[Head back up to the main deck|Main deck]]
+
+:: Main deck
+You start making your way up the sturdy wooden steps and all of a sudden...BAM!!!
+You bump into someone causing them to fall off the steps and onto the lower deck.
+You say...
+[[Are you okay!?|Worry]]
+[[Watch where you're going!|Intimidate]]
+
+:: Worry
+Man: AHHHHHHH!!! Ya broke me leg! Just get me some planks! Please!
+[[Find wooden planks|Planks]]
+
+:: Intimidate
+You pause for a second until you hear... 
+Man: ARRRR!!! Ye bastard! Ya broke me leg! Get me some planks! 
+[[Find wooden planks|Planks]]
+
+:: Planks
+You find some nearby wooden planks and quickly give them to the 
+injured man. 
+
+You help make a splint on the mans broken leg.
+
+Man: Thanks lad! I must've not seen ya, my eyesight isn't well!
+
+You say...[[Are you okay?|Injury]]
+
+:: Injury
+Man: Not really! My leg hurts like hell! I won't be able to 
+walk for weeks now thanks to ya! Help me to my cabin, it's the least ya can do!
+[[Help him|Assist]]
+
+:: Assist 
+You help the man into the captains cabin and onto the chair behind the desk.
+You say...
+[[You must be the captain!|Realize]]
+[[Are you the captain sir?|Ask]]
+
+:: Realize 
+Captain: Aye and you just broke his leg! How am I 
+suppose to be a proper captain to this ship now!
+
+:: Ask 
+Captain: Damn right I am! How am I suppose 
+to be a proper captain to this ship now!
+
