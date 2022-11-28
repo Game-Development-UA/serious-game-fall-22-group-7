@@ -2,7 +2,7 @@
 <<set $hp to 20>>
 <<set $gold to 0>>
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
-information about upcoming events, and much more information about various things.[[Next|Options]]
+information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]
 
 :: Options
 There are two posted announcements that end up catching your eye...
@@ -11,11 +11,34 @@ A post for a bounty describing the capture of a man with a scruffy grey beard. I
 position that will soon set sail in search of this man. The reward is 1000 pieces of gold.[[Accept the bounty|Bounty]]
 
 :: Job
-<<set $gold to 5>>
+<<set $gold to $gold + 5>>
+
 You go through the necessary steps in becoming a crewmate for this big trading ship. You are given 5 pieces of gold as your sign on bonus.
-Before your captain and crewmates
+
+Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
+to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship]]
 
 :: Bounty
-<<set $gold to 5>>
+<<set $gold to $gold + 5>>
+
 You go through the necessary steps in accepting the bounty and joining the crew that is also in pursuit of the bounty. 
 You are also given 5 pieces of gold as your sign on bonus.
+
+Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
+to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship]]
+
+:: Market
+You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
+
+Vendrick has various useful items on display for sale for the right price!
+
+You have $gold gold.
+
+[[Grappling hook|Grappling]] - 2 Gold
+[[Jar of kerosene|Kerosene]] - 1 Gold
+[[Telescope|Telescope]] - 2 Gold
+[[Cutlass|Cutlass]] - 5 Gold
+[[Dagger|Dagger]] - 3 Gold
+[[Musket|Musket]] - 5 Gold
+[[Hand grenade|Grenade]] - 3 Gold
+
