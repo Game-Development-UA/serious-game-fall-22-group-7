@@ -267,5 +267,15 @@ You walk away and all you're thinking about is the secret that this
 group is trying to keep from you and the rest of the ship
 [[Keep investigating|Lower deck2]]
 
+:: Lower deck1
+You decide to head down to the lower deck of the ship where you come across 
+a door to a room at the end of the ship.
+[[Go in|Captain1]]
 
+:: Lower deck2
+You decide to head down to the lower deck of the ship where you come across 
+a door to a room at the end of the ship.
+[[Go in|Captain2]]
 
+:: Captain1
+You go inside the room and 
