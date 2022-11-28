@@ -16,7 +16,7 @@ information about upcoming events, and much more information about various thing
 :: Options
 There are two posted announcements that end up catching your eye...
 A help wanted post that details a crewmate on a trading ship going to the Americas. It pays well.[[Accept the job|Job]]
-A post for a bounty describing the capture of a man with a scruffy grey beard. It also details a ship crew with an open 
+A post for a bounty describing the capture of a man with a scruffy grey beard name Greybeard. It also details a ship crew with an open 
 position that will soon set sail in search of this man. The reward is 1000 pieces of gold.[[Accept the bounty|Bounty]]
 
 :: Job
@@ -25,7 +25,7 @@ position that will soon set sail in search of this man. The reward is 1000 piece
 You go through the necessary steps in becoming a crewmate for this big trading ship. You are given 5 pieces of gold as your sign on bonus.
 
 Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
-to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship1]]
+to buy anything that you might find useful on your voyage.[[Go to market.|Market1]] [[Board the ship|Ship1]]
 
 :: Bounty
 <<set $gold to $gold + 10>>
@@ -34,92 +34,238 @@ You go through the necessary steps in accepting the bounty and joining the crew 
 You are also given 5 pieces of gold as your sign on bonus.
 
 Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
-to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship2]]
+to buy anything that you might find useful on your voyage.[[Go to market.|Market2]] [[Board the ship|Ship2]]
 
-:: Market
+:: Market1
 You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
 
 Vendrick has various useful items on display for sale for the right price!
 
 You have $gold gold.
 
-[[Leave and board the ship|Ship]]
+[[Leave and board the ship|Ship1]]
 
 <<if $grappling == false>>
-[[Grappling hook|Grappling]] - 2 Gold
+[[Grappling hook|Grappling1]] - 2 Gold
 <</if>>
 
 <<if $gold >= 1>>
-[[Jar of kerosene|Kerosene]] - 1 Gold
+[[Jar of kerosene|Kerosene1]] - 1 Gold
 <</if>>
 
 <<if $telescope == false>>
-[[Telescope|Telescope]] - 2 Gold
+[[Telescope|Telescope1]] - 2 Gold
 <</if>>
 
 <<if $cutlass == false>>
-[[Cutlass|Cutlass]] - 5 Gold
+[[Cutlass|Cutlass1]] - 5 Gold
 <</if>>
 
 <<if $dagger == false>>
-[[Dagger|Dagger]] - 3 Gold
+[[Dagger|Dagger1]] - 3 Gold
 <</if>>
 
 <<if $musket == false>>
-[[Musket|Musket]] - 5 Gold
+[[Musket|Musket1]] - 5 Gold
 <</if>>
 
 <<if $gold >= 3>>
-[[Hand grenade|Grenade]] - 3 Gold
+[[Hand grenade|Grenade1]] - 3 Gold
 <</if>>
 
 <<if $gold >= 3>>
-[[Health Potion|Health]] - 3 Gold
+[[Health Potion|Health1]] - 3 Gold
 <</if>>
 
-:: Grappling 
+:: Grappling1
 <<set $grappling to true>>
 <<set $gold to $gold - 2>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Kerosene
+:: Kerosene1
 <<set $kerosene to $kerosene + 1>>
 <<set $gold to $gold - 1>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Telescope
+:: Telescope1
 <<set $telescope to true>>
 <<set $gold to $gold - 2>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Cutlass 
+:: Cutlass1
 <<set $cutlass to true>>
 <<set $gold to $gold - 5>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Dagger
+:: Dagger1
 <<set $dagger to true>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Musket
+:: Musket1
 <<set $musket to true>>
 <<set $gold to $gold - 5>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Grenade
+:: Grenade1
 <<set $grenade to $grenade + 1>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
 
-:: Health
+:: Health1
 <<set $healthpot to $healthpot + 1>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market]]
+Thanks![[Back|Market1]]
+
+:: Market2
+You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
+
+Vendrick has various useful items on display for sale for the right price!
+
+You have $gold gold.
+
+[[Leave and board the ship|Ship2]]
+
+<<if $grappling == false>>
+[[Grappling hook|Grappling2]] - 2 Gold
+<</if>>
+
+<<if $gold >= 1>>
+[[Jar of kerosene|Kerosene2]] - 1 Gold
+<</if>>
+
+<<if $telescope == false>>
+[[Telescope|Telescope2]] - 2 Gold
+<</if>>
+
+<<if $cutlass == false>>
+[[Cutlass|Cutlass2]] - 5 Gold
+<</if>>
+
+<<if $dagger == false>>
+[[Dagger|Dagger2]] - 3 Gold
+<</if>>
+
+<<if $musket == false>>
+[[Musket|Musket2]] - 5 Gold
+<</if>>
+
+<<if $gold >= 3>>
+[[Hand grenade|Grenade2]] - 3 Gold
+<</if>>
+
+<<if $gold >= 3>>
+[[Health Potion|Health2]] - 3 Gold
+<</if>>
+
+:: Grappling2
+<<set $grappling to true>>
+<<set $gold to $gold - 2>>
+Thanks![[Back|Market2]]
+
+:: Kerosene2
+<<set $kerosene to $kerosene + 1>>
+<<set $gold to $gold - 1>>
+Thanks![[Back|Market2]]
+
+:: Telescope2
+<<set $telescope to true>>
+<<set $gold to $gold - 2>>
+Thanks![[Back|Market2]]
+
+:: Cutlass2
+<<set $cutlass to true>>
+<<set $gold to $gold - 5>>
+Thanks![[Back|Market2]]
+
+:: Dagger2
+<<set $dagger to true>>
+<<set $gold to $gold - 3>>
+Thanks![[Back|Market2]]
+
+:: Musket2
+<<set $musket to true>>
+<<set $gold to $gold - 5>>
+Thanks![[Back|Market2]]
+
+:: Grenade2
+<<set $grenade to $grenade + 1>>
+<<set $gold to $gold - 3>>
+Thanks![[Back|Market2]]
+
+:: Health2
+<<set $healthpot to $healthpot + 1>>
+<<set $gold to $gold - 3>>
+Thanks![[Back|Market2]]
+
 
 :: Ship1
-job
+You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. 
+The ship anchor is hoisted and you sail off to the Americas.
+[[Investigate the Ship|Investigate1-1]]
 
 :: Ship2
-bounty
-You arrive at the boat dock where you find your crewmates and captain awaiting your arrival
+You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. 
+The ship anchor is hoisted and you sail off to find Greybeard.
+[[Investigate the ship|Investigate2-1]]
+
+:: Investigate1-1
+You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck.
+You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
+[[Join them|Reject1]] 
+
+:: Investigate2-1
+You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck.
+You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
+[[Join them|Reject2]] 
+
+:: Reject1
+Hey! Can we have some privacy here!
+[[Back off|Investigate1-2]]
+
+:: Reject2
+Hey! Can we have some privacy here!
+[[Back off|Investigate2-2]]
+
+:: Investigate1-2
+Your crewmates push you away, you feel like they are hiding something 
+important from the rest of the crew on the ship.
+[[Eavesdrop|Eavesdrop1]]
+
+:: Investigate2-2
+Your crewmates push you away, you feel like they are hiding something 
+important from the rest of the crew on the ship.
+[[Eavesdrop|Eavesdrop2]]
+
+:: Eavesdrop1
+You try to pretend to look occupied and listen in on their conversation...
+
+Crewmate 1: We can't let anyone find out about our secret!
+
+Crewmate 2: I think it is best if we make a move soon or something could go wrong.
+
+Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
+[[Walk away|Walk away1]]
+
+:: Eavesdrop2
+You try to pretend to look occupied and listen in on their conversation...
+
+Crewmate 1: We can't let anyone find out about our secret!
+
+Crewmate 2: I think it is best if we make a move soon or something could go wrong.
+
+Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
+[[Walk away|Walk away2]]
+
+:: Walk away1
+You walk away and all you're thinking about is the secret that this 
+group is trying to keep from you and the rest of the ship
+[[Keep investigating|Lower deck1]]
+
+:: Walk away2
+You walk away and all you're thinking about is the secret that this 
+group is trying to keep from you and the rest of the ship
+[[Keep investigating|Lower deck2]]
+
+
+
