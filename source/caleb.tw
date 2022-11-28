@@ -13,7 +13,8 @@ You see an old bulletin board occupied by countless papers about help wanted, it
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]
 
 :: Options
-There is one posted announcement that ends up catching your eye...
+There are two posted announcements that end up catching your eye...
+A post with a rumor about a huge amount of treasure buried somewhere in the Bahamas.
 A post for a bounty describing the capture of an old man with a scruffy grey beard name Greybeard. It also details a ship crew with an open 
 position that will soon set sail in search of this man. The reward is 1000 pieces of gold for each crew member.[[Accept the bounty|Bounty]]
 
@@ -199,6 +200,77 @@ to be a proper captain to this ship now!
 [[Lie|Lie]]
 
 :: Lie
+You see an opportunity to possibly get a larger reward from the bounty if you step up.
+
 You: I know my way around these waters, sir! I grew up on these waters fishing with
 my uncle and his small crew for his fish market. I was one of the finest navigators, sir!
+[[...|Response]]
+
+:: Response
+Captain: Mmm... I see... well if ya can navigate then yer probably our best chance 
+at finding that Greybeard bastard! There is word that Greybeard was seen near the Bahamas, 
+it is only a 2 day trip from where we are now. Good luck young sailor!
+
+The captain reaches out to hand you his captain hat, his coat, a telescope along with a 
+trusty compass to find your way around. 
+
+[[Become the new captain|New Captain]]
+
+:: New Captain
+You put on your new hat and coat.
+
+You head up the stairs and start giving out orders pretending to know what you're doing.
+
+[[Give out orders|Orders]]
+
+:: Orders
+You: Raise the mast!! We are headed north! 
+
+Your crewmates look at you confused at first...
+
+You: What are you standing there for lets get dusty old Greybeard and get our 1000 pieces of booty!
+
+Your crewmates are filled with inspiration, they cheer and quickly follow your commands.
+
+You tell yourself that you're pretty good at this.
+
+[[Head to the helm of the ship|Helm]]
+
+:: Helm 
+You reach the helm of the ship where you will use it to steer the ship to where Greybeard is.
+
+You recall the captain telling you he is in the Bahamas so you inspect your compass
+and head Northwest to the Bahamas.
+
+[[Skip a couple days|Skip]]
+
+:: Skip
+A couple days go by and you hear...
+
+Crewmate: LAND HOOOOO!!!!!
+
+Crewmates: *CHEERING*
+
+You start sailing towards the land... as you get closer and closer your see a 
+large ship like yours anchored on the shoreline.
+
+You assume that this is Greybeard so you take proper precautions and prepare you and your crew.
+
+[[Use telescope|Scope in]]
+
+[[Prepare for battle|Prepare]]
+
+:: Scope in
+You scope in the get a closer look and see a crew on the shore with a camp set up...
+Finally you find a man that looks older with a grey scruffy beard and a captains hat.
+
+As you get closer they notice your ship and start to scramble and prepare themselves.
+
+[[Prepare for battle|Prepare]]
+
+:: Prepare 
+You: Oiiiii!!!! Arm yourselves 
+
+
+
 
