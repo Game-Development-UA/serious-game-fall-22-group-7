@@ -7,237 +7,127 @@
 <<set $cutlass to false>>
 <<set $dagger to false>>
 <<set $musket to false>>
-<<set $healthpot to 0>>
+<<set $bread to 0>>
 <<set $grenade to 0>>
 <<set $inventory to []>>
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]
 
 :: Options
-There are two posted announcements that end up catching your eye...
-A help wanted post that details a crewmate on a trading ship going to the Americas. It pays well.[[Accept the job|Job]]
-A post for a bounty describing the capture of a man with a scruffy grey beard name Greybeard. It also details a ship crew with an open 
-position that will soon set sail in search of this man. The reward is 1000 pieces of gold.[[Accept the bounty|Bounty]]
-
-:: Job
-<<set $gold to $gold + 10>>
-
-You go through the necessary steps in becoming a crewmate for this big trading ship. You are given 5 pieces of gold as your sign on bonus.
-
-Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
-to buy anything that you might find useful on your voyage.[[Go to market.|Market1]] [[Board the ship|Ship1]]
+There is one posted announcement that ends up catching your eye...
+A post for a bounty describing the capture of an old man with a scruffy grey beard name Greybeard. It also details a ship crew with an open 
+position that will soon set sail in search of this man. The reward is 1000 pieces of gold for each crew member.[[Accept the bounty|Bounty]]
 
 :: Bounty
 <<set $gold to $gold + 10>>
 
 You go through the necessary steps in accepting the bounty and joining the crew that is also in pursuit of the bounty. 
-You are also given 5 pieces of gold as your sign on bonus.
+You are also given 10 pieces of gold as your sign on bonus because the journey will be dangerous.
 
 Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
-to buy anything that you might find useful on your voyage.[[Go to market.|Market2]] [[Board the ship|Ship2]]
+to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship]]
 
-:: Market1
+:: Market
 You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
 
 Vendrick has various useful items on display for sale for the right price!
 
 You have $gold gold.
 
-[[Leave and board the ship|Ship1]]
+[[Leave and board the ship|Ship]]
 
 <<if $grappling == false>>
-[[Grappling hook|Grappling1]] - 2 Gold
+[[Grappling hook|Grappling]] - 2 Gold
 <</if>>
 
 <<if $gold >= 1>>
-[[Jar of kerosene|Kerosene1]] - 1 Gold
+[[Jar of kerosene|Kerosene]] - 1 Gold
 <</if>>
 
 <<if $telescope == false>>
-[[Telescope|Telescope1]] - 2 Gold
+[[Telescope|Telescope]] - 2 Gold
 <</if>>
 
 <<if $cutlass == false>>
-[[Cutlass|Cutlass1]] - 5 Gold
+[[Cutlass|Cutlass]] - 5 Gold
 <</if>>
 
 <<if $dagger == false>>
-[[Dagger|Dagger1]] - 3 Gold
+[[Dagger|Dagger]] - 3 Gold
 <</if>>
 
 <<if $musket == false>>
-[[Musket|Musket1]] - 5 Gold
+[[Musket|Musket]] - 5 Gold
 <</if>>
 
 <<if $gold >= 3>>
-[[Hand grenade|Grenade1]] - 3 Gold
+[[Hand grenade|Grenade]] - 3 Gold
 <</if>>
 
 <<if $gold >= 3>>
-[[Health Potion|Health1]] - 3 Gold
+[[Health Potion|Health]] - 3 Gold
 <</if>>
 
-:: Grappling1
+:: Grappling
 <<set $grappling to true>>
 <<set $gold to $gold - 2>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Kerosene1
+:: Kerosene
 <<set $kerosene to $kerosene + 1>>
 <<set $gold to $gold - 1>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Telescope1
+:: Telescope
 <<set $telescope to true>>
 <<set $gold to $gold - 2>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Cutlass1
+:: Cutlass
 <<set $cutlass to true>>
 <<set $gold to $gold - 5>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Dagger1
+:: Dagger
 <<set $dagger to true>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Musket1
+:: Musket
 <<set $musket to true>>
 <<set $gold to $gold - 5>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Grenade1
+:: Grenade
 <<set $grenade to $grenade + 1>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Health1
-<<set $healthpot to $healthpot + 1>>
+:: Bread
+<<set $bread to $bread + 1>>
 <<set $gold to $gold - 3>>
-Thanks![[Back|Market1]]
+Thanks![[Back|Market]]
 
-:: Market2
-You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
-
-Vendrick has various useful items on display for sale for the right price!
-
-You have $gold gold.
-
-[[Leave and board the ship|Ship2]]
-
-<<if $grappling == false>>
-[[Grappling hook|Grappling2]] - 2 Gold
-<</if>>
-
-<<if $gold >= 1>>
-[[Jar of kerosene|Kerosene2]] - 1 Gold
-<</if>>
-
-<<if $telescope == false>>
-[[Telescope|Telescope2]] - 2 Gold
-<</if>>
-
-<<if $cutlass == false>>
-[[Cutlass|Cutlass2]] - 5 Gold
-<</if>>
-
-<<if $dagger == false>>
-[[Dagger|Dagger2]] - 3 Gold
-<</if>>
-
-<<if $musket == false>>
-[[Musket|Musket2]] - 5 Gold
-<</if>>
-
-<<if $gold >= 3>>
-[[Hand grenade|Grenade2]] - 3 Gold
-<</if>>
-
-<<if $gold >= 3>>
-[[Health Potion|Health2]] - 3 Gold
-<</if>>
-
-:: Grappling2
-<<set $grappling to true>>
-<<set $gold to $gold - 2>>
-Thanks![[Back|Market2]]
-
-:: Kerosene2
-<<set $kerosene to $kerosene + 1>>
-<<set $gold to $gold - 1>>
-Thanks![[Back|Market2]]
-
-:: Telescope2
-<<set $telescope to true>>
-<<set $gold to $gold - 2>>
-Thanks![[Back|Market2]]
-
-:: Cutlass2
-<<set $cutlass to true>>
-<<set $gold to $gold - 5>>
-Thanks![[Back|Market2]]
-
-:: Dagger2
-<<set $dagger to true>>
-<<set $gold to $gold - 3>>
-Thanks![[Back|Market2]]
-
-:: Musket2
-<<set $musket to true>>
-<<set $gold to $gold - 5>>
-Thanks![[Back|Market2]]
-
-:: Grenade2
-<<set $grenade to $grenade + 1>>
-<<set $gold to $gold - 3>>
-Thanks![[Back|Market2]]
-
-:: Health2
-<<set $healthpot to $healthpot + 1>>
-<<set $gold to $gold - 3>>
-Thanks![[Back|Market2]]
-
-
-:: Ship1
+:: Ship
 You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. 
 The ship anchor is hoisted and you sail off to the Americas.
-[[Investigate the Ship|Investigate1-1]]
+[[Investigate the Ship|Investigate]]
 
-:: Ship2
-You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. 
-The ship anchor is hoisted and you sail off to find Greybeard.
-[[Investigate the ship|Investigate2-1]]
-
-:: Investigate1-1
+:: Investigate
 You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck.
 You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
-[[Join them|Reject1]] 
+[[Join them|Reject]] 
 
-:: Investigate2-1
-You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck.
-You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
-[[Join them|Reject2]] 
-
-:: Reject1
+:: Reject
 Hey! Can we have some privacy here!
-[[Back off|Investigate1-2]]
+[[Back off|Investigate2]]
 
-:: Reject2
-Hey! Can we have some privacy here!
-[[Back off|Investigate2-2]]
-
-:: Investigate1-2
+:: Investigate2
 Your crewmates push you away, you feel like they are hiding something 
 important from the rest of the crew on the ship.
-[[Eavesdrop|Eavesdrop1]]
+[[Eavesdrop|Eavesdrop]]
 
-:: Investigate2-2
-Your crewmates push you away, you feel like they are hiding something 
-important from the rest of the crew on the ship.
-[[Eavesdrop|Eavesdrop2]]
-
-:: Eavesdrop1
+:: Eavesdrop
 You try to pretend to look occupied and listen in on their conversation...
 
 Crewmate 1: We can't let anyone find out about our secret!
@@ -245,37 +135,26 @@ Crewmate 1: We can't let anyone find out about our secret!
 Crewmate 2: I think it is best if we make a move soon or something could go wrong.
 
 Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
-[[Walk away|Walk away1]]
+[[Walk away|Walk away]]
 
-:: Eavesdrop2
-You try to pretend to look occupied and listen in on their conversation...
-
-Crewmate 1: We can't let anyone find out about our secret!
-
-Crewmate 2: I think it is best if we make a move soon or something could go wrong.
-
-Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
-[[Walk away|Walk away2]]
-
-:: Walk away1
+:: Walk away
 You walk away and all you're thinking about is the secret that this 
 group is trying to keep from you and the rest of the ship
-[[Keep investigating|Lower deck1]]
+[[Keep investigating|Lower deck]]
 
-:: Walk away2
-You walk away and all you're thinking about is the secret that this 
-group is trying to keep from you and the rest of the ship
-[[Keep investigating|Lower deck2]]
-
-:: Lower deck1
+:: Lower deck
 You decide to head down to the lower deck of the ship where you come across 
 a door to a room at the end of the ship.
-[[Go in|Captain1]]
+[[Go in|Captain]]
 
-:: Lower deck2
-You decide to head down to the lower deck of the ship where you come across 
-a door to a room at the end of the ship.
-[[Go in|Captain2]]
+:: Captain
+You go inside the room and immediately you're greeted by a huge skeleton of a shark jaw!
+You also see a small model of what looks like the very ship that you're sailing.
+In the center of the room there is a large desk with various papers and other items on it.
+You also see a coat on the chair behind the desk that looks like it belongs to the captain.
+You realize that you found yourself in the captains cabin!
+On the table you see there is a map with some drawings on it.
+[[Take the coat|Leave Cabin]]
 
-:: Captain1
-You go inside the room and 
+:: Leave Cabin
+You roll up the map and you shove it down your pockets so nobody gets suspicious.
