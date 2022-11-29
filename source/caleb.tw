@@ -2,7 +2,6 @@
 <<set $hp to 20>>
 <<set $gold to 0>>
 <<set $grappling to false>>
-<<set $kerosene to 0>>
 <<set $cutlass to false>>
 <<set $dagger to false>>
 <<set $musket to false>>
@@ -40,10 +39,6 @@ You have $gold gold.
 [[Grappling hook|Grappling]] - 2 Gold
 <</if>>
 
-<<if $gold >= 1>>
-[[Jar of kerosene|Kerosene]] - 1 Gold
-<</if>>
-
 <<if $cutlass == false and $gold >= 5>>
 [[Cutlass|Cutlass]] - 5 Gold
 <</if>>
@@ -61,17 +56,12 @@ You have $gold gold.
 <</if>>
 
 <<if $gold >= 3>>
-[[Health Potion|Health]] - 3 Gold
+[[Bread|Bread]] - 3 Gold
 <</if>>
 
 :: Grappling
 <<set $grappling to true>>
 <<set $gold to $gold - 2>>
-Thanks![[Back|Market]]
-
-:: Kerosene
-<<set $kerosene to $kerosene + 1>>
-<<set $gold to $gold - 1>>
 Thanks![[Back|Market]]
 
 :: Cutlass
@@ -100,7 +90,7 @@ Thanks![[Back|Market]]
 Thanks![[Back|Market]]
 
 :: Ship
-You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. 
+You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. You count about 6 crewmates.
 The ship anchor is hoisted and you sail off to the Americas.
 [[Investigate the Ship|Investigate]]
 
@@ -275,8 +265,58 @@ Crewmates: *CHEERING*
 
 You and your crew are ready to fight and wait until your boat reaches the shoreline.
 
+[[...|Battle]]
 
+:: Battle
+<<set $enemies to 7>>
+<<set $greybeardhp to 20>>
+<<set $allies to 6>>
+Finally, the ship reaches the shore line and you see there are abount 7 men in Greybeards crew including himself.
 
+What will be your first move?
 
+[[Cannonball barrage|Cannonballs]]
 
+[[Attack with Grappling Hook|Grappling strike]]
+
+[[Disembark|Disembark]]
+
+:: Grappling strike
+<<set $hp to $hp - 2>>
+You use your grappling hook and swoop into Greybeards crew but you land 
+straight on your head. Luckily the sand isn't very hard
+You lose 2 hp
+You now have $hp hp
+Your crew follows behind you
+
+[[Get up|Select Attack]]
+
+:: Cannonballs
+<<set $enemies to $enemies - 3>>
+You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
+
+[[Disembark|Disembark]]
+
+:: Select Attack
+You and your crew are off the your ship now and you are ready to attack.
+
+<<if $cutlass == true>>
+[[Attack with cutlass|Cutlass strike]]
+<</if>>
+
+<<if $dagger == true>>
+[[Attack with dagger|Dagger strike]]
+<</if>>
+
+<<if $musket == true>>
+[[Attack with musket|Musket shot]]
+<</if>>
+
+<<if $grenade >= 1 >>
+[[Throw grenade|Grenade throw]]
+<</if>>
+
+<<if $bread >= 1>>
+[[Eat bread|Eat bread]]
+<</if>>
 
