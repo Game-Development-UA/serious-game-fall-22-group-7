@@ -1,36 +1,33 @@
-:: Begin
+:: Final Treasure
 <<set $hp to 20>>
 <<set $gold to 0>>
 <<set $grappling to false>>
 <<set $cutlass to false>>
-<<set $dagger to false>>
 <<set $musket to false>>
 <<set $bread to 0>>
 <<set $grenade to 0>>
 <<set $inventory to []>>
+The map takes you to a small port where you get off and look around.
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]
 
 :: Options
 There are two posted announcements that end up catching your eye...
 A post with a rumor about a huge amount of treasure buried somewhere in the Bahamas.
-A post for a bounty describing a wanted old man with a scruffy grey beard name Greybeard. Dead or Alive. It also details a ship crew with an open 
-position that will soon set sail in search of this man. The reward is 1000 pieces of gold for each crew member.[[Accept the bounty|Bounty]]
+A post for a bounty describing a wanted old man with a scruffy grey beard name Greybeard. Dead or Alive. 
+The reward is 1000 pieces of gold for each crew member.[[Accept the bounty|Bounty]]
 
 :: Bounty
 <<set $gold to $gold + 10>>
-
-You go through the necessary steps in accepting the bounty and joining the crew that is also in pursuit of the bounty. 
+You inform your new crew and tell them to begin getting ready for departure.
 You are also given 10 pieces of gold as your sign on bonus because the journey will be dangerous.
 
-Before you, your crewmates, and captain sail off into sea, you have time to visit the local market 
+Before you and your crew sail off into sea, you have time to visit the local market 
 to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship]]
 
 :: Market
-You arrive at the market, the owner is an older fellow that goes by the name of Vendrick
-
+You arrive at the market, the owner is an older fellow that goes by the name of Vendrick.
 Vendrick has various useful items on display for sale for the right price!
-
 You have $gold gold.
 
 [[Leave and board the ship|Boat]]
@@ -90,41 +87,14 @@ Thanks![[Back|Market]]
 Thanks![[Back|Market]]
 
 :: Boat
-You arrive at the boat dock where you find your crewmates awaiting your arrival. You count about 6 crewmates.
+You arrive at the boat dock where you find your crew awaiting your arrival. You count six left.
 The ship anchor is hoisted and you sail off to the Americas.
-[[Investigate the Ship|Investigate]]
-
-:: Investigate
-You wonder around the ship and you see your captain at steering the ship and yelling orders to some of the seamen on deck. 
-The captain looks middle ages with an eyepatch on one eye, a long ponytail, and blackbeard.
-You also notice 3 of your crewmates conversing with eachother, they seem to be talking about something interesting!
-[[Join them|Reject]] 
-
-:: Reject
-Hey! Can we have some privacy here!
-[[Back off|Investigate2]]
-
-:: Investigate2
-Your crewmates push you away, you feel like they are hiding something 
-important from the rest of the crew on the ship.
-[[Eavesdrop|Eavesdrop]]
-
-:: Eavesdrop
-You try to pretend to look occupied and listen in on their conversation...
-
-Crewmate 1: We can't let anyone find out about our secret!
-
-Crewmate 2: I think it is best if we make a move soon or something could go wrong.
-
-Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
-[[Walk away|Walk away]]
-
-[[Skip a couple days|Skip]]
+[[Set sail!|Skip]]
 
 :: Skip
 A couple days go by and you hear...
 
-Crewmate: LAND HOOOOO!!!!!
+Crewmate: "LAND HOOOOO!!!!!"
 
 Crewmates: *CHEERING*
 
@@ -176,11 +146,11 @@ You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
 
 :: Grappling strike
 <<set $hp to $hp - 2>>
-You use your grappling hook and swoop into Greybeards crew but you land 
-straight on your head. Luckily the sand isn't very hard
-You lose 2 hp
-You now have $hp hp
-Your crew follows behind you
+You use your grappling hook and swoop into Greybeards crew but you land.
+straight on your head. Luckily the sand isn't very hard.
+You lose 2 hp.
+You now have $hp hp.
+Your crew follows behind you.
 
 [[Get up|Select Attack]]
 
@@ -314,9 +284,6 @@ You and your crew brutally murder Greybeard.
 
 :: Search Greybeard 
 You find a map in Greybeards pocket that leads to a big red X nearby.
-
-You recall seeing a map similar to Greybeards and remember you took it from the captain's cabin. 
-They were both after the same thing all along.
 
 [[Find Treasure|Find Treasure]]
 
