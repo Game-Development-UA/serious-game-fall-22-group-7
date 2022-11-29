@@ -25,7 +25,7 @@ It seems there is no longer an option of leaving this place. [[Keep going.|Page 
 At the end of the large cavern you see a massive door in front of you that looks promising but don't see a handle. The door resembles the skull shaped entrance from before, only this time there is a message.
 The message reads 'Only those with the strongest will can see the light of truth behind the lies that hide in the dark'. You and the team split up and begin looking for ways in.
 You can go over to the [[torch holders|Torch]], [[the pile of rocks|Rockpile]], or [[talk|Converse]] with the crew.
-<<set help = false>>
+<<set $help = false>>
 
 :: Regroup
 You head back to the door and reevaluate.
@@ -41,17 +41,17 @@ A trapdoor flies open across the room and three crew members fall to their death
 
 :: Rockpile
 You head over to the rocks and see that there is a large stack of rocks about the size of a cannonball. Something in there stands out though.
-<<if help == true>>
+<<if $help == true>>
 You motion over the captain and begin moving the rocks until you see a small lever.
 You [[pull|Opens Door]] it and the cavern begins to rumble.
 <</if>>
-<<if help == false>>
+<<if $help == false>>
 You realize its a bit too heavy. This may be a job for more than one. You[[step back.|Regroup]]
 <</if>>
 
 :: Converse
 You walk over to the captain and the remaining crew and let them know what you're thinking. You think it may work best to work as a team and suggest going in pairs.
-<<set help = true>>
+<<set $help = true>>
 You [[walk|Regroup]] over to the door.
 
 :: Opens Door
