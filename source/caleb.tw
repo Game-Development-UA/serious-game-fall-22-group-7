@@ -277,9 +277,9 @@ What will be your first move?
 
 [[Cannonball barrage|Cannonballs]]
 
-[[Attack with Grappling Hook|Grappling strike]]
-
-[[Disembark|Disembark]]
+:: Cannonballs
+<<set $enemies to $enemies - 3>>
+You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
 
 :: Grappling strike
 <<set $hp to $hp - 2>>
@@ -291,14 +291,16 @@ Your crew follows behind you
 
 [[Get up|Select Attack]]
 
-:: Cannonballs
-<<set $enemies to $enemies - 3>>
-You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
+<<if $grappling == true>>
+[[Attack with Grappling Hook|Grappling strike]]
+<</if>>
 
 [[Disembark|Disembark]]
 
 :: Select Attack
 You and your crew are off the your ship now and you are ready to attack.
+
+There are $enemies enemies left.
 
 <<if $cutlass == true>>
 [[Attack with cutlass|Cutlass strike]]
@@ -319,4 +321,5 @@ You and your crew are off the your ship now and you are ready to attack.
 <<if $bread >= 1>>
 [[Eat bread|Eat bread]]
 <</if>>
+
 
