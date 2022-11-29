@@ -40,11 +40,11 @@ You have $gold gold.
 [[Cutlass|Cutlass]] - 5 Gold
 <</if>>
 
-<<if $dagger == false>>
+<<if $dagger == false and $gold >= 3>>
 [[Dagger|Dagger]] - 3 Gold
 <</if>>
 
-<<if $musket == false>>
+<<if $musket == false and $gold >= 5>>
 [[Musket|Musket]] - 5 Gold
 <</if>>
 
