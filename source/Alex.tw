@@ -3,11 +3,12 @@ You stumble onto the dock and notice three pirate captains looking to expand the
 First you can check out [[the black ship.|Ship1]]
 Or you can walk over to [[the brown ship|Ship2]]
 Lastly, you can join the group of people near [[the green ship|Ship3]]
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm9ZLUgDzAJwRM6Wahf_bYfU9nU_VwB4hDNCltBdvg73CWWBUM1YwBSncVDLUM-pL-8IM&usqp=CAU" width = "500" height = "400">
 
 :: Back
 You take a step back and think about the choices in front of you.
 You move towards the [[black ship|Ship1]], the [[brown ship|Ship2]], or the [[green ship.|Ship3]]
-
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm9ZLUgDzAJwRM6Wahf_bYfU9nU_VwB4hDNCltBdvg73CWWBUM1YwBSncVDLUM-pL-8IM&usqp=CAU" width = "500" height = "400">
 
 :: Ship1
 <<set $speed to 3>>
@@ -19,6 +20,7 @@ The crew is filled with a varity of members who seem to have not so open arms at
 It seems you will need to gain their respect and prove your addition towards their cause. 
 This ship's title is 'The Plague'
 [[You see the captain of the black ship.|Black Captain]]
+<img src="https://i.pinimg.com/736x/f0/a2/65/f0a2656197c50b14b93a323437278370--the-pirate-pirate-ships.jpg" width = "500" height = "400">
 
 :: Ship2
 <<set $speed to 4>>
@@ -30,7 +32,7 @@ They seem to be treasure hunters who spoil themselves with thier riches.
 Anyone who where to join their ranks would surely be rewarded. 
 This ship's title is 'The Righteous Marble'
 [[You see the captain of the brown ship.|Brown Captain]]
-
+<img src="https://assets.londonist.com/uploads/2016/08/i875/wapping.jpg" width = "500" height = "400">
 
 :: Ship3
 <<set $speed to 10>>
@@ -41,6 +43,7 @@ This ship's hull is a faded green with bleach white sails.
 The ship itself and the crew it holds is not much to look at however, you can tell it can get you anywhere you would want to go in a matter of moments. 
 This ship's title is unknown....
 [[You see the captain of the green ship.|Green Captain]]
+<img src="https://media-cdn.tripadvisor.com/media/photo-s/13/b2/e0/ff/green-pirate-ship.jpg" width = "500" height = "400">
 
 
 
@@ -51,7 +54,7 @@ His apperance is as unwelcoming as his crew.
 He has a long white beard and what should be a foot a peg takes its place.
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
-
+<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/293132537_449279443872479_7846307917931459991_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=c6021c&_nc_ohc=jUIho2qJOEgAX_9ljZf&_nc_ht=scontent-lax3-1.xx&oh=00_AfAB4Lt86NNyJabybb8jBV2d2CuF0GFtzdXvd7w3DexR_Q&oe=638A24B6" width = "500" height = "400">
 
 :: Brown Captain
 This ship's captain is known to be the most respectable man across the seven seas. 
@@ -59,7 +62,7 @@ He calls himself The Collector. He is as well dressed as his crewmates and is ho
 He carries a joyful smile as he mingles with the people around, clearly proud at what he has accomplished.
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
-
+<img src="https://images.halloweencostumes.com/products/39951/1-1/adult-deluxe-pirate-captain-costume.jpg" width = "500" height = "400">
 
 :: Green Captain
 This captain is different from most. There are no distinct features nor does he resemble anyone of importance. 
@@ -67,7 +70,7 @@ It is almost as if he is but a crew member rather than a captain.
 To those who know him he is called The Derilect, a name given to him because of how he drifts across the ocean with what seems to be with no care in the world. 
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
-
+<img src="https://i.ebayimg.com/images/g/Di4AAOSwqfNXjww0/s-l1600.jpg" width = "500" height = "400">
 
 :: Return from Ship
 Once you have decided the ship you believe will grant you the better spoils in life, you climb aboard unsure of the dangers that could be ahead on your new jounery, but excited all the same you are a pirarte crew member once agian.[[Climb Aboard|First Loot]]
