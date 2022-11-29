@@ -1,4 +1,4 @@
-:: Begin
+:: Final Treasure
 <<set $hp to 20>>
 <<set $gold to 0>>
 <<set $grappling to false>>
