@@ -1,18 +1,47 @@
 :: Final Treasure
-After defeating the ship that abushed you and your crew apon arrival, the ship sets sail for the shore of the treasure island that has been named The Edge of the World. [[Keep going.|Page 2]]
+After joining the ship you and your new crew set sail for the shore of the treasure island that has been named The Edge of the World. [[Keep going.|Page 2]]
 
 :: Page 2
-From previous encounters you now know that this treasure is kept on a forgotten pirate ship known as Death Trap. Its crew speaclized in makeing elaborate trip wire traps, bottomless pits, and even pressure plated landmines. [[Keep going.|Page 3]]
+From stories told by the captain and crew, you now know that this treasure is kept on a forgotten pirate ship known as the Death Trap. Its crew speaclized in makeing elaborate trip wire traps, bottomless pits, and even pressure plated landmines. [[Keep going.|Page 3]]
 
 :: Page 3
-You and your crew are led to an entrance of a large cave. It's ruble almost resembles a skull looking back at you. Suddenly a voice cries out entering your mind. It says to stay away screamin that whoever enters this domain will never be heard from again. You step back for only a second and lead your crew inside. [[Keep going.|Page 4]]
+You and your crew are led to an entrance of a large cave. It's ruble almost resembles a skull looking back at you. Suddenly a voice cries out entering your mind. It says to stay away screaming that whoever enters this domain will never be heard from again. You step back for only a second and lead the crew inside. [[Keep going.|Page 4]]
 
 :: Page 4
-Begin hunt for vault door. 
+You enter the skull and walk into a large cavern. You see a massive door in front of you that looks promising but don't see a handle. The crew splits up and begins looking for ways in.
+You can go over to the [[torch holders|Torch]], [[the pile of rocks|Rockpile]], or [[talk|Converse]] with some members of the crew.
+<<set help = false>>
+
+:: Regroup
+You head back to the door and reevaluate.
+[[Head over to the torch holder.|Torch]]
+[[Head over to the rock pile.|Rockpile]]
+[[Head over to the crew.|Converse]]
+
+:: Torch
+You head over to the torch holders and notice there are four spots but only three are filled. You can [[put your torch in|Slot Torch]] and see what happens.
+
+:: Slot Torch
+A trapdoor flies open across the room and three crew members fall to their deaths. The captain runs over to you and scolds you for your 
+
+:: Rockpile
+You head over to the rocks and see that there is a large stack of rocks about the size of a cannonball. Something in there stands out though.
+<<if help == true>>
+You motion over your friend and begin moving the rocks until you see a small lever.
+You [[pull|Opens Door]] it and the cavern begins to rumble.
+<</if>>
+<<if help == false>>
+You realize its a bit too heavy. This may be a job for more than one. You[[step back.|Regroup]]
+<</if>>
+
+:: Converse
+You walk over to the group and let them know what you're thinking. One of the crew members thinks it may work best if everyone splits up into pairs and colaborate.
+<<set help = true>>
+You [[walk|Regroup]] over to the door.
 
 
-
-The door opens in front of you.[[Keep going.|Page 5]]
+:: Opens Door
+The massive door begins to roll out of the way exposing the large ship in front of you.[[Keep going.|Page 5]]
 
 :: Page 5
 Next passage. [[Keep going.|Page 6]]
