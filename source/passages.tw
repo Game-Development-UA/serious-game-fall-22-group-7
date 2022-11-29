@@ -2,10 +2,17 @@
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]
 
 :: First Loot
-Test [[Keep Going|Find Loot]]
+The captain sees your poteential and invites you on board. You make many new friends while talking with the crew as they tell you of their past acheivements and whats to come in the future. 
+Though they are not completly arware of all the details, the cuurent mission is to reach an ancient bounty that was last seen over half a century ago.
+The treasure is rumored to be held on a ledgendary pirate ship that plundered the seven seas for generations.
+The crew states that thats all they know for now. 
+You all [[wait|Find Loot]] for the captain's next orders 
 
 :: Ship Battle
-Test [[Keep Going|Prepare Battle]]
+The crew, happy with the new information but worried about the looming threat make their way to battle stations seeing the opposing ship close in on them.
+You notice something when the ship pulls up. 
+Using your spyglass you go in for a closer [[look.|Prepare Battle]]
 
 :: Big Treasure
-Test [[End Battle|Final Treasure]]
+With the battle at a conclusion and no other threats remain on board. You and your crew set sail for the new corrdinates that the map provides.
+They journy will be long but after your previous encounter you are more than [[ready.|Final Treasure]]

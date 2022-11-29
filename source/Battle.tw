@@ -1,8 +1,11 @@
 <<set $dagger to false>>
 
 :: Prepare Battle
-The crew, happy with the new information but worried about the looming threat make their way to battle stations seeing the opposing ship close in on them.
-The ship pulls up and you see your old crew from before with swords and cannons ready for a fight. You [[yell|Fight Begin]] to the captain and prepare to fight.
+Just like in the cave a rush of cold travels througout your body.
+The ship that has declared an attack was the one you grew to know for many years.
+You see your old crew that abandoned in that old tavern with swords and cannons ready for a fight. 
+Your fear grew to anger as you [[yell|Fight Begin]] to the captain and prepare to fight.
+Its time for revenge...
 
 
 :: Fight Begin
@@ -140,11 +143,11 @@ He recommends [[freeing the crew|Cap and Crew]] or you can decide to [[sneak up|
 You make your way up the stairs and slowly make your way across the ship taking out guards one by one.
 You finally get to the end and see a group of five men near the wheel.
 You and the captain plan out ways to take them out but can't find a way to do it.
-With all hope lost the captain charges the group and gives you a distraction to [[sneak behind them.|Sneak Cut]]
+With all hope lost, the captain charges the group and gives you a distraction to [[sneak behind them.|Sneak Cut]]
 
 :: Sneak Cut
 The captain swings wildly taking out two of the pirates when the other three swarm him.
-This gives you an easy path to taking them all out from behind but not before the captain receives a sword to the gut.
+This gives you an easy path to taking them all out from behind, but not before the captain receives a sword to the gut.
 You quickly cut through the enemy and [[rush|Death]] to the captain's aid.
 
 :: Cap and Crew
