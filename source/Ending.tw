@@ -23,7 +23,7 @@ You inform your new crew and tell them to begin getting ready for departure.
 You are also given 10 pieces of gold as your sign on bonus because the journey will be dangerous.
 
 Before you and your crew sail off into sea, you have time to visit the local market 
-to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Ship]]
+to buy anything that you might find useful on your voyage.[[Go to market.|Market]] [[Board the ship|Boat]]
 
 :: Market
 You arrive at the market, the owner is an older fellow that goes by the name of Vendrick.
@@ -171,6 +171,8 @@ they are shot by several muskets.
 
 :: Select Attack
 There are $enemies enemies left.
+
+Use cannons again! [[Fire!|Cannonballs]]
 
 <<if $enemies > 0>>
 <<if $cutlass == true>>
