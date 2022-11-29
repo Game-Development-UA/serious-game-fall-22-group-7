@@ -117,8 +117,7 @@ You try to fire the cannons but quickly realize you do not have enough fire powe
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 <</if>>
 
-
-
+#---------------------------------------------------------------------------------------------------------------------#
 :: Boarding Attack
 The enemy boards and quickly start to overrun the ship.
 Your weak defenses allow them to quickly take over and they begin to tie up all the pirates.
@@ -130,31 +129,69 @@ You get up and can go to the [[captain's quarters|CQ Route]] or make your way to
 
 :: CQ Route
 <<set $dagger to true>>
+<<set $meetcap to true>>
 You sneak over to the captain's quarters and slowly open the door.
 You see the captain hunched behind his desk with his pistol in hand.
 He sees its you and lowers his weapon. He explains that he locked himself in when he heard the pirates boarding above.
 He hands you his dagger and you cut yourself free and begin planning how to take back the ship.
-He recommends [[freeing the crew|Cap and Crew]] or you can decide to [[sneak up and take out the pirates left on the ship.|Retake]]
+He recommends [[freeing the crew|Cap and Crew]] or you can decide to [[sneak up|Sneak Retake]] and take out the pirates left on the ship.
+
+:: Sneak Retake
+You make your way up the stairs and 
+
+
+:: Cap and Crew
+Dagger in your hand and a cutless in the captain's, you slowly [[leave the quarters.|B Route]]
+
 
 :: B Route
 You head over to the brig and see the rest of the crew.
+<<if $meetcap == false>>
+You find the nearest sharp edge and break off your bindings helping the rest of the crew out as well.
+A fellow crewmember then mentions the captain and you send off two people to go find him and help him out to prepare for the fight.
+<</if>>
+You then begin preparing to retake the ship.
+You hand out any weapons you can find and prepare to [[rush the steps.|Rush Attack]]
 
 
+:: Rush Attack
+Clenching the make-shift weapons you charge the enemy. 
+Completely surprised you take out a good portion of the enemy pirates before they have time to respond.
+As you make your way across the ship taking out everyone in your path, you reach the end where you turn to celebrate the victory.
+You look over to the captain fighting the rival captain and realize things aren't looking good for your crippled leader.
+You sprint forward but its too late.
+You slash the rival and send him over the ship before catching the captain and [[putting pressure on his wounds.|Death]]
 
-
+#---------------------------------------------------------------------------------------------------------------------#
 :: Speedy Escape
+After trying mutliple quick passes you realize you need to flee.
+You point the sails in the direction of the wind and prepare to leave but realize the enemy ship is coming straight at you one last time.
+You brace for impact as they tear through the back of the ship.
+You run to the lower deck where you see the captain and many injured sailers.
+The captain has a large piece of wood that impaled him and [[calls you over.|Death]]
 
 
+#---------------------------------------------------------------------------------------------------------------------#
 :: Second Attack
 
 
 
 
+#---------------------------------------------------------------------------------------------------------------------#
 
+:: Death
+He looks up to you and smiles faintly.
+Happy that he defended his ship he slowly dies in front of you.
+As you begin to stand up the crew begins to surround the captain and murmurs turn to a loud ramble.
+You stand up on a nearby barrel and address the crew.
 
+"Though we lost a great captain today, we still have a great treasure in front of us. Tonight we will celebrate the life of our great captain and tomorrow we will prepare to continue the journey and get rich!"
 
+You step down and celebrate with the crew.
+As the night dies down, you remember something and [[head down|Battle Conclusion]] to the lower deck.
 
-
-You got away and remember the map from the captain's quarters.
+:: Battle Conclusion
+You walk to the captain's quarters and take a look at the map from before.
 You run down under and grab it to plot the course to find you treasure.
+As you leave you glance back at the desk and remember the sacrafice of the captain and realize the seat you now have to fill for the crew.
 [[Begin sailing.|Big Treasure]]
