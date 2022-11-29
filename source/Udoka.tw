@@ -1,3 +1,5 @@
+<<set $dagger to false>>
+
 :: Prepare Battle
 The crew, happy with the new information but worried about the looming threat make their way to battle stations seeing the opposing ship close in on them.
 The ship pulls up and you see your old crew from before with swords and cannons ready for a fight. You [[yell|Fight Begin]] to the captain and prepare to fight.
@@ -59,16 +61,15 @@ You hear cannonfire outside and ask how to proceed.
 [[How are we going to win this battle?|Ask]]
 
 :: Ask 
-Captain: Damn right I am! How am I suppose 
-to be a proper captain to this ship now!
-[[Lie|Lie]]
+Captain: How the hell am I supposed to know! I can barely stand now. I'll need someone who can stand in for me.
+[[Volunteer|Volunteer]]
 
-:: Lie
-
+:: Volunteer
+"I could do it", you suggest to the captain.
 [[...|Response]]
 
 :: Response
-Captain: 
+Captain: Well I haven't known you for too long but I trust you after helping us out in that cave back there and I don't have many options. 
 
 The captain reaches out to hand you his captain hat, his coat, a telescope along with a 
 trusty compass to find your way around. 
@@ -96,7 +97,55 @@ You think to yourself that you're pretty good at this.
 [[Head to the helm of the ship|Helm]]
 
 :: Helm 
-You reach the helm of the ship where you will use it to steer the ship into battle.
+You reach the helm where you will steer the ship into battle.
+The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.
+
+:: Fight
+With all your strenght you spin the wheel and turn to face the enemy.
+You line up your ship to come up on their side.
+<<if $attack > 5>>
+You pull up beside them and begin firing.
+
+<<if $attack > 9>>
+Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
+<</if>>
+<<else>>
+You do significant damage and defend the ship. You pull away to regroup for a [[second attack.|Second Attack]]
+<</if>>
+<<if $attack < 6>>
+You try to fire the cannons but quickly realize you do not have enough fire power to take them out.
+You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
+<</if>>
+
+
+
+:: Boarding Attack
+The enemy boards and quickly start to overrun the ship.
+Your weak defenses allow them to quickly take over and they begin to tie up all the pirates.
+The enemy quickly realize your identity and begin to ridicule you.
+They throw you below deck and begin plotting course to the nearest port to deal with the prisoners.
+You get up and can go to the [[captain's quarters|CQ Route]] or make your way to the [[brig.|B Route]]
+
+
+
+:: CQ Route
+<<set $dagger to true>>
+You sneak over to the captain's quarters and slowly open the door.
+You see the captain hunched behind his desk with his pistol in hand.
+He sees its you and lowers his weapon. He explains that he locked himself in when he heard the pirates boarding above.
+He hands you his dagger and you cut yourself free and begin planning how to take back the ship.
+He recommends [[freeing the crew|Cap and Crew]] or you can decide to [[sneak up and take out the pirates left on the ship.|Retake]]
+
+:: B Route
+You head over to the brig and see the rest of the crew.
+
+
+
+
+:: Speedy Escape
+
+
+:: Second Attack
 
 
 
@@ -106,9 +155,6 @@ You reach the helm of the ship where you will use it to steer the ship into batt
 
 
 
-
-
-
-
-
-Go for the final loot. [[Keep Going|Big Treasure]]
+You got away and remember the map from the captain's quarters.
+You run down under and grab it to plot the course to find you treasure.
+[[Begin sailing.|Big Treasure]]
