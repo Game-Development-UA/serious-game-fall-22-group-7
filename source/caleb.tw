@@ -33,7 +33,7 @@ Vendrick has various useful items on display for sale for the right price!
 
 You have $gold gold.
 
-[[Leave and board the ship|Ship]]
+[[Leave and board the ship|Boat]]
 
 <<if $grappling == false>>
 [[Grappling hook|Grappling]] - 2 Gold
@@ -89,7 +89,7 @@ Thanks![[Back|Market]]
 <<set $gold to $gold - 3>>
 Thanks![[Back|Market]]
 
-:: Ship
+:: Boat
 You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. You count about 6 crewmates.
 The ship anchor is hoisted and you sail off to the Americas.
 [[Investigate the Ship|Investigate]]
