@@ -8,14 +8,22 @@ Lastly, you can join the group of people near [[the green ship|Ship3]]
 <<set $speed to 3>>
 <<set $defense to 6>>
 <<set $attack to 10>>
-You look across the port and spot a ship that has been made for combat. The hull is a midnight shade of black with crimson red sails. The crew is filled with a varity of members who seem to have not so open arms at first glance. It seems you will need to gain their respect and prove your addition towards their cause. This ship's title is 'The Plague'
+You look across the port and spot a ship that has been made for combat. 
+The hull is a midnight shade of black with crimson red sails. 
+The crew is filled with a varity of members who seem to have not so open arms at first glance. 
+It seems you will need to gain their respect and prove your addition towards their cause. 
+This ship's title is 'The Plague'
 [[You see the captain of the black ship.|Black Captain]]
 
 :: Ship2
 <<set $speed to 4>>
 <<set $defense to 9>>
 <<set $attack to 7>>
-In the middle of the port you see a grand ship, with a brown shaded hull and emerald green sails, made to withstand anything that crosses its path. The crew seem to be well mannered and are dressed in only the finest of clothing. They seem to be treasure hunters who spoil themselves with thier riches. Anyone who where to join their ranks would surely be rewarded. This ship's title is 'The Righteous Marble'
+In the middle of the port you see a grand ship, with a brown shaded hull and emerald green sails, made to withstand anything that crosses its path. 
+The crew seem to be well mannered and are dressed in only the finest of clothing. 
+They seem to be treasure hunters who spoil themselves with thier riches. 
+Anyone who where to join their ranks would surely be rewarded. 
+This ship's title is 'The Righteous Marble'
 [[You see the captain of the brown ship.|Brown Captain]]
 
 
@@ -23,25 +31,35 @@ In the middle of the port you see a grand ship, with a brown shaded hull and eme
 <<set $speed to 10>>
 <<set $defense to 3>>
 <<set $attack to 5>>
-On the far side of the port you manage to locate a rather small ship. This ship's hull is a faded green with bleach white sails. The ship itself and the crew it holds is not much to look at however, you can tell it can get you anywhere you would want to go in a matter of moments. This ship's title is unknown....
+On the far side of the port you manage to locate a rather small ship. 
+This ship's hull is a faded green with bleach white sails. 
+The ship itself and the crew it holds is not much to look at however, you can tell it can get you anywhere you would want to go in a matter of moments. 
+This ship's title is unknown....
 [[You see the captain of the green ship.|Green Captain]]
 
 
 
 :: Black Captain
-This ship's Captain is known as Scur-V the most feared pirate to ever live. It is said that he once single handedly took out an entire armada with only a single canon. His apperance is as unwelcoming as his crew. He has a long white beard and what should be a foot a peg takes its place.
+This ship's Captain is known as Scur-V the most feared pirate to ever live. 
+It is said that he once single handedly took out an entire armada with only a single canon. 
+His apperance is as unwelcoming as his crew. 
+He has a long white beard and what should be a foot a peg takes its place.
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
 
 
 :: Brown Captain
-This ship's captain is known to be the most respectable man across the seven seas. He calls himself The Collector. He is as well dressed as his crewmates and is hold what seems to be a very expensive wine glass and bottle. He carries a joyful smile as he mingles with the people around, clearly proud at what he has accomplished.
+This ship's captain is known to be the most respectable man across the seven seas. 
+He calls himself The Collector. He is as well dressed as his crewmates and is hold what seems to be a very expensive wine glass and bottle. 
+He carries a joyful smile as he mingles with the people around, clearly proud at what he has accomplished.
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
 
 
 :: Green Captain
-This captain is different from most. There are no distinct features nor does he resemble anyone of importance. It is almost as if he is but a crew member rather than a captain. To those who know him he is called The Derilect, a name given to him because of how he drifts across the ocean with what seems to be with no care in the world. 
+This captain is different from most. There are no distinct features nor does he resemble anyone of importance. 
+It is almost as if he is but a crew member rather than a captain. 
+To those who know him he is called The Derilect, a name given to him because of how he drifts across the ocean with what seems to be with no care in the world. 
 [[Take a look at the other ships.|Back]]
 [[It's time to go on our first mission!|Return from Ship]]
 
