@@ -104,7 +104,7 @@ You reach the helm where you will steer the ship into battle.
 The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.
 
 :: Fight
-With all your strenght you spin the wheel and turn to face the enemy.
+With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
 <<if $attack > 5>>
 You pull up beside them and begin firing.
