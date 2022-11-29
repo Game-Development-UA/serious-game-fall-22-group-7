@@ -22,11 +22,40 @@ Then as quick as before, the screams of the crew echo once again through the air
 It seems there is no longer an option of leaving this place. [[Keep going.|Page 4]]
 
 :: Page 4
-You manage to make your way to what seems to be a vault door that resembles the skull shaped entrance from before, only this time there is a message.
-The message reads 'Only those with the strongest will can see the light of truth behind the lies that hide in the dark'
+At the end of the large cavern you see a massive door in front of you that looks promising but don't see a handle. The door resembles the skull shaped entrance from before, only this time there is a message.
+The message reads 'Only those with the strongest will can see the light of truth behind the lies that hide in the dark'. You and the captain split up and begins looking for ways in.
+You can go over to the [[torch holders|Torch]], [[the pile of rocks|Rockpile]], or [[talk|Converse]] with the captain.
+<<set help = false>>
 
+:: Regroup
+You head back to the door and reevaluate.
+[[Head over to the torch holder.|Torch]]
+[[Head over to the rock pile.|Rockpile]]
+[[Head over to the crew.|Converse]]
 
-The door opens in front of you.
+:: Torch
+You head over to the torch holders and notice there are four spots but only three are filled. You can [[put your torch in|Slot Torch]] and see what happens.
+
+:: Slot Torch
+A trapdoor flies open across the room and three crew members fall to their deaths. The captain runs over to you and scolds you for your 
+
+:: Rockpile
+You head over to the rocks and see that there is a large stack of rocks about the size of a cannonball. Something in there stands out though.
+<<if help == true>>
+You motion over the captain and begin moving the rocks until you see a small lever.
+You [[pull|Opens Door]] it and the cavern begins to rumble.
+<</if>>
+<<if help == false>>
+You realize its a bit too heavy. This may be a job for more than one. You[[step back.|Regroup]]
+<</if>>
+
+:: Converse
+You walk over to the captain and let him know what you're thinking. Though annoyed that your are wasting time by talking he tells you he thinks it may work best if we split up and look for clues.
+<<set help = true>>
+You [[walk|Regroup]] over to the door.
+
+:: Opens Door
+The massive door begins to roll out of the way exposing the large ship in front of you.
 On the other side is a large stair case that leads down further into the cave.
 Once you and the captain reach the bottom you both notice that the crew who abandoned you and the captain are all gropued up in a large room that has light coming through three different areas. 
 They explain that each group set off a trap the sent them down a rabbit hole that sent them to where you are now. 
