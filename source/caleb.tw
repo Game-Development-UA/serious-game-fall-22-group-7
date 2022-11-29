@@ -14,7 +14,7 @@ information about upcoming events, and much more information about various thing
 :: Options
 There are two posted announcements that end up catching your eye...
 A post with a rumor about a huge amount of treasure buried somewhere in the Bahamas.
-A post for a bounty describing the capture of an old man with a scruffy grey beard name Greybeard. It also details a ship crew with an open 
+A post for a bounty describing a wanted old man with a scruffy grey beard name Greybeard. Dead or Alive. It also details a ship crew with an open 
 position that will soon set sail in search of this man. The reward is 1000 pieces of gold for each crew member.[[Accept the bounty|Bounty]]
 
 :: Bounty
@@ -281,6 +281,12 @@ What will be your first move?
 <<set $enemies to $enemies - 3>>
 You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
 
+<<if $grappling == true>>
+[[Attack with Grappling Hook|Grappling strike]]
+<</if>>
+
+[[Disembark|Select Attack]]
+
 :: Grappling strike
 <<set $hp to $hp - 2>>
 You use your grappling hook and swoop into Greybeards crew but you land 
@@ -291,17 +297,25 @@ Your crew follows behind you
 
 [[Get up|Select Attack]]
 
-<<if $grappling == true>>
-[[Attack with Grappling Hook|Grappling strike]]
-<</if>>
+:: Get off
+<<set $allies to $allies - 4>>
+You and your crew are off the your ship, as soon as you take your first step your crew is shot by several muskets
+4 of your men are taken out
 
-[[Disembark|Disembark]]
+[[Select Attack|Select Attack]]
+
+:: Get up
+<<set $allies to $allies - 4>>
+You get up and you feel dizzy you see your crew take their first few steps onto the shore but
+they are shot by several muskets.
+4 of your men are taken out
+
+[[Select Attack|Select Attack]]
 
 :: Select Attack
-You and your crew are off the your ship now and you are ready to attack.
-
 There are $enemies enemies left.
 
+<<if $enemies > 0>>
 <<if $cutlass == true>>
 [[Attack with cutlass|Cutlass strike]]
 <</if>>
@@ -321,5 +335,109 @@ There are $enemies enemies left.
 <<if $bread >= 1>>
 [[Eat bread|Eat bread]]
 <</if>>
+<</if>>
+
+<<if $enemies == 0>>
+All of Greybeards crew have been killed.
+
+[[Confront Greybeard|Greybeard]]
+<</if>>
+
+:: Cutlass strike
+<<set $enemies to $enemies - 1>>
+<<set $hp to $hp - 2>>
+You go for a swift strike with your cutlass at Greybeards crew.
+
+You slash into an enemy killing them.
+
+In the process, Greybeard is able to land a stab onto you with his dagger.
+
+You have $hp hp.
+
+[[Select Attack|Select Attack]]
+
+:: Dagger strike
+<<set $enemies to $enemies - 1>>
+<<set $hp to $hp - 3>>
+You go for a quick stab with your dagger at Greybeards crew.
+
+You stab into an enemy killing them.
+
+In the process, Greybeard is able to land a slash onto you with his cutlass.
+
+You have $hp hp.
+
+[[Select Attack|Select Attack]]
+
+:: Musket shot
+<<set $enemies to $enemies - 1>>
+<<set $hp to $hp - 2>>
+You ready your musket and you fire it into Greybeards crew.
+
+Your shot lands on an enemy killing them.
+
+In the process, Greybeard is able to land a shot with his flintlock on you.
+
+You have $hp hp.
+
+[[Select Attack|Select Attack]]
+
+:: Grenade throw
+<<set $enemies to $enemies -1>>
+<<set $allies to $allies - 1>>
+<<set $grenade to $grenade - 1>>
+You throw the grenade with all your strength into Greybeards crew.
+
+Your grenade lands next to an enemy before exploding and killing them.
+
+In the process, Greybeard is able to throw a grenade of his own at your crew.
+
+You have $allies in your crew left.
+
+[[Select Attack|Select Attack]]
+
+:: Eat Bread
+<<set $allies to $allies - 1>>
+<<set $bread to $bread - 1>>
+You take a big bite of your bread and you feel stronger
+
+While you take a bite, Greybeard slays one of your men.
+
+You have $hp hp.
+
+:: Greybeard
+As Greybeard stands over his crews dead bodies alone in fear he drops his sword and pleads to be spared.
+
+Greybeard: Please! Spare my life! I know where the treasure is, you and your crew will
+be rich for a lifetime and more!
+
+[[Spare Greybeard|Spare Greybeard]]
+
+[[Kill Greybeard|Kill Greybeard]]
+
+:: Spare Greybeard
+You and your remaining crew spare Greybeard and he leads you to the treasure 
+hoard that him and his crew have been looking for. Greybeard is truthful and 
+allows you and your crew to take the treasure hoard in return for his life.
+
+:: Kill Greybeard
+You and your crew brutally murder Greybeard.
+
+[[Search Greybeard|Search Greybeard]]
+
+:: Search Greybeard 
+You find a map in Greybeards pocket that leads to a big red X nearby.
+
+You recall seeing a map similar to Greybeards and remember you took it from the captain's cabin. 
+They were both after the same thing all along.
+
+[[Find Treasure|Find Treasure]]
+
+:: Find Treasure
+Sooner or later you find the location marked on greybeards map.
+
+To you and your remaining crews surprise you find a huge amount of booty in a hole already dug up.
+
+
 
 
