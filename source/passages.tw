@@ -2,7 +2,10 @@
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]
 
 :: Ship Choice
-You got back! [[Keep Going|Back]]
+You stumble onto the dock and notice three pirate captains looking to expand their crews.
+First you can check out [[the black ship.|Ship1]]
+Or you can walk over to [[the brown ship|Ship2]]
+Lastly, you can join the group of people near [[the green ship|Ship3]]
 
 :: First Loot
 Test [[Keep Going|Find Loot]]
