@@ -90,7 +90,7 @@ Thanks![[Back|Market]]
 Thanks![[Back|Market]]
 
 :: Boat
-You arrive at the boat dock where you find your crewmates and captain awaiting your arrival. You count about 6 crewmates.
+You arrive at the boat dock where you find your crewmates awaiting your arrival. You count about 6 crewmates.
 The ship anchor is hoisted and you sail off to the Americas.
 [[Investigate the Ship|Investigate]]
 
@@ -118,119 +118,6 @@ Crewmate 2: I think it is best if we make a move soon or something could go wron
 
 Crewmate 3: We just have to wait until we reach the special island in the Bahamas.
 [[Walk away|Walk away]]
-
-:: Walk away
-You walk away and all you're thinking about is the secret that this 
-group is trying to keep from you and the rest of the ship
-[[Keep investigating|Lower deck]]
-
-:: Lower deck
-You decide to head down to the lower deck of the ship where you come across 
-a door to a room at the end of the ship.
-[[Go in|Captain]]
-
-:: Captain
-You go inside the room and immediately you're greeted by a huge skeleton of a shark jaw!
-You also see a small model of what looks like the very ship that you're sailing.
-In the center of the room there is a large desk with various papers and other items on it.
-You also see a coat on the chair behind the desk that looks like it belongs to the captain.
-You realize that you found yourself in the captains cabin!
-On the table you see there is a map with some drawings on it.
-[[Take the coat|Leave Cabin]]
-
-:: Leave Cabin
-You roll up the map and you shove it down your pockets so nobody gets suspicious. 
-[[Head back up to the main deck|Main deck]]
-
-:: Main deck
-You start making your way up the sturdy wooden steps and all of a sudden...BAM!!!
-You bump into someone causing them to fall off the steps and onto the lower deck.
-You say...
-[[Are you okay!?|Worry]]
-[[Watch where you're going!|Intimidate]]
-
-:: Worry
-Man: AHHHHHHH!!! Ya broke me leg! Just get me some planks! Please!
-[[Find wooden planks|Planks]]
-
-:: Intimidate
-You pause for a second until you hear... 
-Man: ARRRR!!! Ye bastard! Ya broke me leg! Get me some planks! 
-[[Find wooden planks|Planks]]
-
-:: Planks
-You find some nearby wooden planks and quickly give them to the 
-injured man. 
-
-You help make a splint on the mans broken leg.
-
-Man: Thanks lad! I must've not seen ya, my eyesight isn't well!
-
-You say...[[Are you okay?|Injury]]
-
-:: Injury
-Man: Not really! My leg hurts like hell! I won't be able to 
-walk for weeks now thanks to ya! Help me to my cabin, it's the least ya can do!
-[[Help him|Assist]]
-
-:: Assist 
-You help the man into the captains cabin and onto the chair behind the desk.
-You say...
-[[You must be the captain!|Realize]]
-[[Are you the captain sir?|Ask]]
-
-:: Realize 
-Captain: Aye and you just broke his leg! How am I 
-suppose to be a proper captain to this ship now!
-[[Lie|Lie]]
-
-:: Ask 
-Captain: Damn right I am! How am I suppose 
-to be a proper captain to this ship now!
-[[Lie|Lie]]
-
-:: Lie
-You see an opportunity to possibly get a larger reward from the bounty if you step up.
-
-You: I know my way around these waters, sir! I grew up on these waters fishing with
-my uncle and his small crew for his fish market. I was one of the finest navigators, sir!
-[[...|Response]]
-
-:: Response
-Captain: Mmm... I see... well if ya can navigate then yer probably our best chance 
-at finding that Greybeard bastard! There is word that Greybeard was seen near the Bahamas, 
-it is only a 2 day trip from where we are now. Good luck young sailor!
-
-The captain reaches out to hand you his captain hat, his coat, a telescope along with a 
-trusty compass to find your way around. 
-
-[[Become the new captain|New Captain]]
-
-:: New Captain
-You put on your new hat and coat.
-
-You head up the stairs and start giving out orders pretending to know what you're doing.
-
-[[Give out orders|Orders]]
-
-:: Orders
-You: Raise the mast!! We are headed north! 
-
-Your crewmates look at you confused at first...
-
-You: What are you standing there for lets get dusty old Greybeard and get our 1000 pieces of booty!
-
-Your crewmates are filled with inspiration, they cheer and quickly follow your commands.
-
-You tell yourself that you're pretty good at this.
-
-[[Head to the helm of the ship|Helm]]
-
-:: Helm 
-You reach the helm of the ship where you will use it to steer the ship to where Greybeard is.
-
-You recall the captain telling you he is in the Bahamas so you inspect your compass
-and head Northwest to the Bahamas.
 
 [[Skip a couple days|Skip]]
 

@@ -1,14 +1,11 @@
 :: Start
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]
 
-:: Ship Choice
-You got back! [[Keep Going|Back]]
-
 :: First Loot
 Test [[Keep Going|Find Loot]]
 
 :: Ship Battle
-Test [[Keep Going|Big Treasure]]
+Test [[Keep Going|Prepare Battle]]
 
 :: Big Treasure
-Test [[Keep Going|Final Treasure]]
+Test [[End Battle|Final Treasure]]
