@@ -1,8 +1,3 @@
-:: Back
-You stumble onto the dock and notice three pirate captains looking to expand their crews.
-First you can check out [[the black ship.|Ship1]]
-Or you can walk over to [[the brown ship|Ship2]]
-Lastly, you can join the group of people near [[the green ship|Ship3]]
 
 :: Ship1
 <<set $speed to 3>>
