@@ -1,30 +1,30 @@
 :: First Loot 
-The ship sets sail for the shore of the treasure island that has been named The Edge of the World. [[Keep going.|Page 2]]
+The ship sets sail for the shore of the treasure island that has been named The Edge of the World. You hear some voices up on the deck and [[make your way up the stairs.|Page 2]]
 
 :: Page 2
-The captain tells a story of how this treasure is one of legend and is kept on a forgotten pirate ship known as Death Trap whos captain's name was Greybeard. 
+The captain is telling a story of how this treasure is one of legend and is kept on a forgotten pirate ship known as the Death Trap whos captain's name was Greybeard. 
 Its crew speaclized in makeing elaborate trip wire traps, bottomless pits, and even pressure plated landmines. 
 You and your crew are led to an entrance of a large cave.
 It's ruble almost resembles a skull looking back at you. 
 Suddenly a voice cries out entering your mind. 
 It says to stay away screamin that whoever enters this domain will never be heard from again. 
-You step back for only a second and lead your crew inside. [[Keep going.|Page 3]]
+You step back for only a second and [[lead the crew inside.|Page 3]]
 
 :: Page 3
-You and your crew make your way through an abandoned passage way that seems to have been built by human hands. 
+You and the crew make your way through an abandoned passage way that seems to have been built by human hands. 
 The air is cold and the tension of what is to come grows ever more sufficating leaving your crew to grow impatient. 
 As you press foward you manage to spot a light coming form the end of the hall and noticing this some of the crew members ignore the captain's command and rush forward towards the light. 
 You and a few others who managed to keep their cool stayed with the captain. 
 Suddenly you all hear a loud rumble and the screams of those who rushed foward begin to echo through the chasm. 
-Terrified the remaining crew decide to retreat back to the ship with the the insurance that they will ready the ship for departure, leaving you alone with the captain who has only dispapointment for his crew. 
-He gives you a glare of insurance that gives a chill down you entire body.
+Terrified, some of the remaining crew decide to retreat back to the ship with the the idea that they will ready the ship for departure, leaving you with the captain, who has only dispapointment for his crew, and a couple stragglers. 
+The captain gives you a glare of assurance that gives a chill down you entire body.
 Then as quick as before, the screams of the crew echo once again through the air only this time it is from the ones who went back to the entrance.
 It seems there is no longer an option of leaving this place. [[Keep going.|Page 4]]
 
 :: Page 4
 At the end of the large cavern you see a massive door in front of you that looks promising but don't see a handle. The door resembles the skull shaped entrance from before, only this time there is a message.
-The message reads 'Only those with the strongest will can see the light of truth behind the lies that hide in the dark'. You and the captain split up and begins looking for ways in.
-You can go over to the [[torch holders|Torch]], [[the pile of rocks|Rockpile]], or [[talk|Converse]] with the captain.
+The message reads 'Only those with the strongest will can see the light of truth behind the lies that hide in the dark'. You and the team split up and begin looking for ways in.
+You can go over to the [[torch holders|Torch]], [[the pile of rocks|Rockpile]], or [[talk|Converse]] with the crew.
 <<set help = false>>
 
 :: Regroup
@@ -50,7 +50,7 @@ You realize its a bit too heavy. This may be a job for more than one. You[[step 
 <</if>>
 
 :: Converse
-You walk over to the captain and let him know what you're thinking. Though annoyed that your are wasting time by talking he tells you he thinks it may work best if we split up and look for clues.
+You walk over to the captain and the remaining crew and let them know what you're thinking. You think it may work best to work as a team and suggest going in pairs.
 <<set help = true>>
 You [[walk|Regroup]] over to the door.
 
