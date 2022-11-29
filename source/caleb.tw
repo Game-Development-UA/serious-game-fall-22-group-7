@@ -3,7 +3,6 @@
 <<set $gold to 0>>
 <<set $grappling to false>>
 <<set $cutlass to false>>
-<<set $dagger to false>>
 <<set $musket to false>>
 <<set $bread to 0>>
 <<set $grenade to 0>>
