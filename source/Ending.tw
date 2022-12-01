@@ -135,7 +135,7 @@ What will be your first move?
 
 :: Cannonballs
 <<set $enemies to $enemies - 3>>
-You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
+You command a barrage of cannonballs onto shore killing some of Greybeards men.
 
 <<if $grappling == true>>
 [[Attack with Grappling Hook|Grappling strike]]

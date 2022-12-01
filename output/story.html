@@ -194,9 +194,8 @@ You think to yourself that you&#39;re pretty good at this.
 The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.</tw-passagedata><tw-passagedata pid="18" name="Fight" tags="" position="975,225" size="100,100">&lt;&lt;set $randomNumber = Math.floor(Math.random()*11)&gt;&gt;
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-&lt;&lt;if $attack &gt; $randomNumber&gt;&gt;
+&lt;&lt;if $attack &gt;= $randomNumber&gt;&gt;
 You pull up beside them and begin firing.
-
 &lt;&lt;if $attack &gt; $randomNumber + 2&gt;&gt;
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 &lt;&lt;/if&gt;&gt;
@@ -396,9 +395,15 @@ You get up and you feel dizzy you see your crew take their first few steps onto 
 they are shot by several muskets.
 4 of your men are taken out
 
-[[Select Attack|Select Attack]]</tw-passagedata><tw-passagedata pid="65" name="Select Attack" tags="" position="600,850" size="100,100">There are $enemies enemies left.
+[[Select Attack|Select Attack]]</tw-passagedata><tw-passagedata pid="65" name="Select Attack" tags="" position="600,850" size="100,100">&lt;&lt;if $enemies &lt;= -1&gt;&gt;
+&lt;&lt;set $enemies to 0&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 
+There are $enemies enemies left.
+
+&lt;&lt;if $enemies &gt;= 1 &gt;&gt;
 Use cannons again! [[Fire!|Cannonballs]]
+&lt;&lt;/if&gt;&gt;
 
 &lt;&lt;if $enemies &gt; 0&gt;&gt;
 &lt;&lt;if $cutlass == true&gt;&gt;
