@@ -169,6 +169,10 @@ they are shot by several muskets.
 [[Select Attack|Select Attack]]
 
 :: Select Attack
+<<if $enemies <= -1>>
+<<set $enemies to 0>>
+<</if>>
+
 There are $enemies enemies left.
 
 <<if $enemies >= 1 >>
