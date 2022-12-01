@@ -191,19 +191,18 @@ Your crewmates are filled with inspiration, they cheer and quickly follow your c
 You think to yourself that you&#39;re pretty good at this.
 
 [[Head to the helm of the ship|Helm]]</tw-passagedata><tw-passagedata pid="17" name="Helm" tags="" position="850,225" size="100,100">You reach the helm where you will steer the ship into battle.
-The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.</tw-passagedata><tw-passagedata pid="18" name="Fight" tags="" position="975,225" size="100,100">var randomNumber=Math.floor(Math.random()*11)
+The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.</tw-passagedata><tw-passagedata pid="18" name="Fight" tags="" position="975,225" size="100,100">&lt;&lt;set $randomNumber = Math.floor(Math.random()*11)&gt;&gt;
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-&lt;&lt;if $attack &gt; randomNumber&gt;&gt;
+&lt;&lt;if $attack &gt;= $randomNumber&gt;&gt;
 You pull up beside them and begin firing.
-
-&lt;&lt;if $attack &gt; randomNumber + 2&gt;&gt;
+&lt;&lt;if $attack &gt; $randomNumber + 2&gt;&gt;
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;else&gt;&gt;
 You do significant damage and defend the ship. You pull away to regroup for a [[second attack.|Second Attack]]
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;if $attack &lt; randomNumber&gt;&gt;
+&lt;&lt;if $attack &lt; $randomNumber&gt;&gt;
 You try to fire the cannons but quickly realize you do not have enough fire power to take them out.
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Boarding Attack" tags="" position="1100,225" size="100,100">The enemy boards and quickly start to overrun the ship.
@@ -290,7 +289,6 @@ Walking towards the port you see quite a selection of ships, it is your [[choice
 &lt;&lt;set $musket to false&gt;&gt;
 &lt;&lt;set $bread to 0&gt;&gt;
 &lt;&lt;set $grenade to 0&gt;&gt;
-&lt;&lt;set $inventory to []&gt;&gt;
 The map takes you to a small port where you get off and look around.
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]</tw-passagedata><tw-passagedata pid="47" name="Options" tags="" position="850,600" size="100,100">There are two posted announcements that end up catching your eye...
@@ -375,7 +373,7 @@ Finally, the ship reaches the shore line and you see there are abount 7 men in G
 What will be your first move?
 
 [[Cannonball barrage|Cannonballs]]</tw-passagedata><tw-passagedata pid="61" name="Cannonballs" tags="" position="100,850" size="100,100">&lt;&lt;set $enemies to $enemies - 3&gt;&gt;
-You command a barrage of cannonballs onto shore killing 3 of Greybeards men.
+You command a barrage of cannonballs onto shore killing some of Greybeards men.
 
 &lt;&lt;if $grappling == true&gt;&gt;
 [[Attack with Grappling Hook|Grappling strike]]
@@ -397,9 +395,15 @@ You get up and you feel dizzy you see your crew take their first few steps onto 
 they are shot by several muskets.
 4 of your men are taken out
 
-[[Select Attack|Select Attack]]</tw-passagedata><tw-passagedata pid="65" name="Select Attack" tags="" position="600,850" size="100,100">There are $enemies enemies left.
+[[Select Attack|Select Attack]]</tw-passagedata><tw-passagedata pid="65" name="Select Attack" tags="" position="600,850" size="100,100">&lt;&lt;if $enemies &lt;= -1&gt;&gt;
+&lt;&lt;set $enemies to 0&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 
+There are $enemies enemies left.
+
+&lt;&lt;if $enemies &gt;= 1 &gt;&gt;
 Use cannons again! [[Fire!|Cannonballs]]
+&lt;&lt;/if&gt;&gt;
 
 &lt;&lt;if $enemies &gt; 0&gt;&gt;
 &lt;&lt;if $cutlass == true&gt;&gt;
@@ -423,7 +427,7 @@ Use cannons again! [[Fire!|Cannonballs]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $enemies == 0&gt;&gt;
+&lt;&lt;if $enemies &lt;= 0&gt;&gt;
 All of Greybeards crew have been killed.
 
 [[Confront Greybeard|Greybeard]]
@@ -580,8 +584,8 @@ It is almost as if he is but a crew member rather than a captain.
 To those who know him he is called The Derilect, a name given to him because of how he drifts across the ocean with what seems to be with no care in the world. 
 [[Take a look at the other ships.|Back]]
 [[It&#39;s time to go on our first mission!|Return from Ship]]
-&lt;img src=&quot;https://i.ebayimg.com/images/g/Di4AAOSwqfNXjww0/s-l1600.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="96" name="Return from Ship" tags="" position="725,1225" size="100,100">Once you have decided the ship you believe will grant you the better spoils in life, you climb aboard unsure of the dangers that could be ahead on your new jounery, but excited all the same you are a pirarte crew member once agian.[[Climb Aboard|First Loot]]</tw-passagedata><tw-passagedata pid="97" name="StoryInit" tags="" position="850,1225" size="100,100">&lt;&lt;set $myVariable to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Start" tags="" position="975,1225" size="100,100">&lt;&lt;cacheaudio &quot;main&quot; &quot;output/media/piratemusic.mp3&quot;&gt;&gt;
-&lt;&lt;audio main play&gt;&gt;
+&lt;img src=&quot;https://i.ebayimg.com/images/g/Di4AAOSwqfNXjww0/s-l1600.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="96" name="Return from Ship" tags="" position="725,1225" size="100,100">Once you have decided the ship you believe will grant you the better spoils in life, you climb aboard unsure of the dangers that could be ahead on your new jounery, but excited all the same you are a pirarte crew member once agian.[[Climb Aboard|First Loot]]</tw-passagedata><tw-passagedata pid="97" name="StoryInit" tags="" position="850,1225" size="100,100">&lt;&lt;set $myVariable to 1&gt;&gt;
+&lt;&lt;cacheaudio &quot;main&quot; &quot;output/media/piratemusic.mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Start" tags="" position="975,1225" size="100,100">&lt;&lt;audio main play&gt;&gt;
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]</tw-passagedata><tw-passagedata pid="99" name="First Loot" tags="" position="1100,1225" size="100,100">The captain sees your potential and invites you on board. You make many new friends while talking with the crew as they tell you of their past acheivements and whats to come in the future. 
 Though they are not completly aware of all the details, the curent mission is to reach an ancient bounty that was last seen over half a century ago.
 The treasure is rumored to be held on a ledgendary pirate ship that plundered the seven seas for generations.
