@@ -6,7 +6,6 @@
 <<set $musket to false>>
 <<set $bread to 0>>
 <<set $grenade to 0>>
-<<set $inventory to []>>
 The map takes you to a small port where you get off and look around.
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]
@@ -196,7 +195,7 @@ Use cannons again! [[Fire!|Cannonballs]]
 <</if>>
 <</if>>
 
-<<if $enemies == 0>>
+<<if $enemies <= 0>>
 All of Greybeards crew have been killed.
 
 [[Confront Greybeard|Greybeard]]
