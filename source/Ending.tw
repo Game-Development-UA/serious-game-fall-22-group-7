@@ -171,7 +171,9 @@ they are shot by several muskets.
 :: Select Attack
 There are $enemies enemies left.
 
+<<if $enemies >= 1 >>
 Use cannons again! [[Fire!|Cannonballs]]
+<</if>>
 
 <<if $enemies > 0>>
 <<if $cutlass == true>>

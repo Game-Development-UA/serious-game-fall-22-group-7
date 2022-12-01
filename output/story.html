@@ -191,19 +191,19 @@ Your crewmates are filled with inspiration, they cheer and quickly follow your c
 You think to yourself that you&#39;re pretty good at this.
 
 [[Head to the helm of the ship|Helm]]</tw-passagedata><tw-passagedata pid="17" name="Helm" tags="" position="850,225" size="100,100">You reach the helm where you will steer the ship into battle.
-The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.</tw-passagedata><tw-passagedata pid="18" name="Fight" tags="" position="975,225" size="100,100">var randomNumber=Math.floor(Math.random()*11)
+The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.</tw-passagedata><tw-passagedata pid="18" name="Fight" tags="" position="975,225" size="100,100">&lt;&lt;set $randomNumber = Math.floor(Math.random()*11)&gt;&gt;
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-&lt;&lt;if $attack &gt; randomNumber&gt;&gt;
+&lt;&lt;if $attack &gt; $randomNumber&gt;&gt;
 You pull up beside them and begin firing.
 
-&lt;&lt;if $attack &gt; randomNumber + 2&gt;&gt;
+&lt;&lt;if $attack &gt; $randomNumber + 2&gt;&gt;
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;else&gt;&gt;
 You do significant damage and defend the ship. You pull away to regroup for a [[second attack.|Second Attack]]
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;if $attack &lt; randomNumber&gt;&gt;
+&lt;&lt;if $attack &lt; $randomNumber&gt;&gt;
 You try to fire the cannons but quickly realize you do not have enough fire power to take them out.
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Boarding Attack" tags="" position="1100,225" size="100,100">The enemy boards and quickly start to overrun the ship.
@@ -290,7 +290,6 @@ Walking towards the port you see quite a selection of ships, it is your [[choice
 &lt;&lt;set $musket to false&gt;&gt;
 &lt;&lt;set $bread to 0&gt;&gt;
 &lt;&lt;set $grenade to 0&gt;&gt;
-&lt;&lt;set $inventory to []&gt;&gt;
 The map takes you to a small port where you get off and look around.
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]</tw-passagedata><tw-passagedata pid="47" name="Options" tags="" position="850,600" size="100,100">There are two posted announcements that end up catching your eye...
@@ -423,7 +422,7 @@ Use cannons again! [[Fire!|Cannonballs]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $enemies == 0&gt;&gt;
+&lt;&lt;if $enemies &lt;= 0&gt;&gt;
 All of Greybeards crew have been killed.
 
 [[Confront Greybeard|Greybeard]]
