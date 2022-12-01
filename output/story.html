@@ -291,6 +291,7 @@ Walking towards the port you see quite a selection of ships, it is your [[choice
 &lt;&lt;set $grenade to 0&gt;&gt;
 &lt;&lt;set $inventory to []&gt;&gt;
 The map takes you to a small port where you get off and look around.
+The map takes you to a small port where you get off and look around.
 You see an old bulletin board occupied by countless papers about help wanted, items for sale, 
 information about upcoming events, and much more information about various things.[[Take a closer look.|Options]]</tw-passagedata><tw-passagedata pid="47" name="Options" tags="" position="850,600" size="100,100">There are two posted announcements that end up catching your eye...
 A post with a rumor about a huge amount of treasure buried somewhere in the Bahamas.
@@ -582,6 +583,62 @@ To those who know him he is called The Derilect, a name given to him because of 
 &lt;img src=&quot;https://i.ebayimg.com/images/g/Di4AAOSwqfNXjww0/s-l1600.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="96" name="Return from Ship" tags="" position="725,1225" size="100,100">Once you have decided the ship you believe will grant you the better spoils in life, you climb aboard unsure of the dangers that could be ahead on your new jounery, but excited all the same you are a pirarte crew member once agian.[[Climb Aboard|First Loot]]</tw-passagedata><tw-passagedata pid="97" name="StoryInit" tags="" position="850,1225" size="100,100">&lt;&lt;set $myVariable to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Start" tags="" position="975,1225" size="100,100">&lt;&lt;cacheaudio &quot;main&quot; &quot;media/piratemusic.mp3&quot;&gt;&gt;
 &lt;&lt;audio main play&gt;&gt;
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]</tw-passagedata><tw-passagedata pid="99" name="First Loot" tags="" position="1100,1225" size="100,100">The captain sees your potential and invites you on board. You make many new friends while talking with the crew as they tell you of their past acheivements and whats to come in the future. 
+Though they are not completly aware of all the details, the curent mission is to reach an ancient bounty that was last seen over half a century ago.
+The treasure is rumored to be held on a ledgendary pirate ship that plundered the seven seas for generations.
+The crew states that thats all they know for now. 
+You all [[wait|Find Loot]] for the captain&#39;s next orders</tw-passagedata><tw-passagedata pid="100" name="Ship Battle" tags="" position="1225,1225" size="100,100">The crew, happy with the new information but worried about the looming threat make their way to battle stations seeing the opposing ship close in on them.
+You notice something when the ship pulls up closer. 
+Using your spyglass, you go in for a closer [[look.|Prepare Battle]]</tw-passagedata><tw-passagedata pid="101" name="Big Treasure" tags="" position="100,1350" size="100,100">With the battle at a conclusion and no other threats remain on board. You and your crew set sail for the new corrdinates that the map provides.
+The journey will be long but after your previous encounter you are more than [[ready.|Final Treasure]]</tw-passagedata></tw-storydata>
+It is time to [[prepare|Ship Battle]] for battle.</tw-passagedata><tw-passagedata pid="88" name="Ship Choice" tags="" position="975,1100" size="100,100">You stumble onto the dock and notice three pirate captains looking to expand their crews.
+First you can check out [[the black ship.|Ship1]]
+Or you can walk over to [[the brown ship|Ship2]]
+Lastly, you can join the group of people near [[the green ship|Ship3]]
+&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm9ZLUgDzAJwRM6Wahf_bYfU9nU_VwB4hDNCltBdvg73CWWBUM1YwBSncVDLUM-pL-8IM&amp;usqp=CAU&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="89" name="Back" tags="" position="1100,1100" size="100,100">You take a step back and think about the choices in front of you.
+You move towards the [[black ship|Ship1]], the [[brown ship|Ship2]], or the [[green ship.|Ship3]]
+&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm9ZLUgDzAJwRM6Wahf_bYfU9nU_VwB4hDNCltBdvg73CWWBUM1YwBSncVDLUM-pL-8IM&amp;usqp=CAU&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="90" name="Ship1" tags="" position="1225,1100" size="100,100">&lt;&lt;set $speed to 3&gt;&gt;
+&lt;&lt;set $defense to 6&gt;&gt;
+&lt;&lt;set $attack to 10&gt;&gt;
+You look across the port and spot a ship that has been made for combat. 
+The hull is a midnight shade of black with crimson red sails. 
+The crew is filled with a varity of members who seem to have not so open arms at first glance. 
+It seems you will need to gain their respect and prove your addition towards their cause. 
+This ship&#39;s title is &#39;The Plague&#39;
+[[You see the captain of the black ship.|Black Captain]]
+&lt;img src=&quot;https://i.pinimg.com/736x/f0/a2/65/f0a2656197c50b14b93a323437278370--the-pirate-pirate-ships.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="91" name="Ship2" tags="" position="100,1225" size="100,100">&lt;&lt;set $speed to 4&gt;&gt;
+&lt;&lt;set $defense to 9&gt;&gt;
+&lt;&lt;set $attack to 7&gt;&gt;
+In the middle of the port you see a grand ship, with a brown shaded hull and emerald green sails, made to withstand anything that crosses its path. 
+The crew seem to be well mannered and are dressed in only the finest of clothing. 
+They seem to be treasure hunters who spoil themselves with thier riches. 
+Anyone who where to join their ranks would surely be rewarded. 
+This ship&#39;s title is &#39;The Righteous Marble&#39;
+[[You see the captain of the brown ship.|Brown Captain]]
+&lt;img src=&quot;https://assets.londonist.com/uploads/2016/08/i875/wapping.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="92" name="Ship3" tags="" position="225,1225" size="100,100">&lt;&lt;set $speed to 10&gt;&gt;
+&lt;&lt;set $defense to 3&gt;&gt;
+&lt;&lt;set $attack to 5&gt;&gt;
+On the far side of the port you manage to locate a rather small ship. 
+This ship&#39;s hull is a faded green with bleach white sails. 
+The ship itself and the crew it holds is not much to look at however, you can tell it can get you anywhere you would want to go in a matter of moments. 
+This ship&#39;s title is unknown....
+[[You see the captain of the green ship.|Green Captain]]
+&lt;img src=&quot;https://media-cdn.tripadvisor.com/media/photo-s/13/b2/e0/ff/green-pirate-ship.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="93" name="Black Captain" tags="" position="350,1225" size="100,100">This ship&#39;s Captain is known as Scur-V the most feared pirate to ever live. 
+It is said that he once single handedly took out an entire armada with only a single canon. 
+His apperance is as unwelcoming as his crew. 
+He has a long white beard and what should be a foot a peg takes its place.
+[[Take a look at the other ships.|Back]]
+[[It&#39;s time to go on our first mission!|Return from Ship]]
+&lt;img src=&quot;https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/293132537_449279443872479_7846307917931459991_n.jpg?stp=dst-jpg_p200x200&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=c6021c&amp;_nc_ohc=jUIho2qJOEgAX_9ljZf&amp;_nc_ht=scontent-lax3-1.xx&amp;oh=00_AfAB4Lt86NNyJabybb8jBV2d2CuF0GFtzdXvd7w3DexR_Q&amp;oe=638A24B6&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="94" name="Brown Captain" tags="" position="475,1225" size="100,100">This ship&#39;s captain is known to be the most respectable man across the seven seas. 
+He calls himself The Collector. He is as well dressed as his crewmates and is hold what seems to be a very expensive wine glass and bottle. 
+He carries a joyful smile as he mingles with the people around, clearly proud at what he has accomplished.
+[[Take a look at the other ships.|Back]]
+[[It&#39;s time to go on our first mission!|Return from Ship]]
+&lt;img src=&quot;https://images.halloweencostumes.com/products/39951/1-1/adult-deluxe-pirate-captain-costume.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="95" name="Green Captain" tags="" position="600,1225" size="100,100">This captain is different from most. There are no distinct features nor does he resemble anyone of importance. 
+It is almost as if he is but a crew member rather than a captain. 
+To those who know him he is called The Derilect, a name given to him because of how he drifts across the ocean with what seems to be with no care in the world. 
+[[Take a look at the other ships.|Back]]
+[[It&#39;s time to go on our first mission!|Return from Ship]]
+&lt;img src=&quot;https://i.ebayimg.com/images/g/Di4AAOSwqfNXjww0/s-l1600.jpg&quot; width = &quot;500&quot; height = &quot;400&quot;&gt;</tw-passagedata><tw-passagedata pid="96" name="Return from Ship" tags="" position="725,1225" size="100,100">Once you have decided the ship you believe will grant you the better spoils in life, you climb aboard unsure of the dangers that could be ahead on your new jounery, but excited all the same you are a pirarte crew member once agian.[[Climb Aboard|First Loot]]</tw-passagedata><tw-passagedata pid="97" name="StoryInit" tags="" position="850,1225" size="100,100">&lt;&lt;set $myVariable to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Start" tags="" position="975,1225" size="100,100">You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]</tw-passagedata><tw-passagedata pid="99" name="First Loot" tags="" position="1100,1225" size="100,100">The captain sees your potential and invites you on board. You make many new friends while talking with the crew as they tell you of their past acheivements and whats to come in the future. 
 Though they are not completly aware of all the details, the curent mission is to reach an ancient bounty that was last seen over half a century ago.
 The treasure is rumored to be held on a ledgendary pirate ship that plundered the seven seas for generations.
 The crew states that thats all they know for now. 
