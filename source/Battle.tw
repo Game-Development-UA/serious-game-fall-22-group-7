@@ -104,18 +104,19 @@ You reach the helm where you will steer the ship into battle.
 The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.
 
 :: Fight
+<<set $randomNumber = Math.floor(Math.random()*11)>>
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-<<if $attack > 5>>
+<<if $attack > $randomNumber>>
 You pull up beside them and begin firing.
 
-<<if $attack > 9>>
+<<if $attack > $randomNumber + 2>>
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 <</if>>
 <<else>>
 You do significant damage and defend the ship. You pull away to regroup for a [[second attack.|Second Attack]]
 <</if>>
-<<if $attack < 6>>
+<<if $attack < $randomNumber>>
 You try to fire the cannons but quickly realize you do not have enough fire power to take them out.
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 <</if>>
