@@ -1,4 +1,6 @@
 :: Start
+<<cacheaudio "main" "output/media/piratemusic.mp3">>
+<<audio main play>>
 You awake on the floor of a tavern, with nothing but the filthy rags attached to your body and a bottle of rum in hand. You were just hit in the back of the head by one of your crewmates. [[Get up|Awake]]
 
 :: First Loot

@@ -120,7 +120,7 @@ You try to fire the cannons but quickly realize you do not have enough fire powe
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 <</if>>
 
-#---------------------------------------------------------------------------------------------------------------------#
+
 :: Boarding Attack
 The enemy boards and quickly start to overrun the ship.
 Your weak defenses allow them to quickly take over and they begin to tie up all the pirates.
@@ -172,7 +172,7 @@ You look over to the captain fighting the rival captain and realize things aren'
 You sprint forward but its too late.
 You slash the rival and send him over the ship before catching the captain and [[putting pressure on his wounds.|Death]]
 
-#---------------------------------------------------------------------------------------------------------------------#
+
 :: Speedy Escape
 After trying mutliple quick passes you realize you need to flee.
 You point the sails in the direction of the wind and prepare to leave but realize the enemy ship is coming straight at you one last time.
@@ -181,13 +181,12 @@ You run to the lower deck where you see the captain and many injured sailers.
 The captain has a large piece of wood that impaled him and [[calls you over.|Death]]
 
 
-#---------------------------------------------------------------------------------------------------------------------#
+
 :: Second Attack
 You continue your cannon assault and sink the other ship.
 You take limited casualties and the crew grows respect for your skill and poise in the face of danger.
 You [[sail to harbor|Big Treasure]] and prepare for the long journey ahead of you.
 
-#---------------------------------------------------------------------------------------------------------------------#
 
 :: Death
 He looks up to you and smiles faintly.
