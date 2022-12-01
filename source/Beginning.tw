@@ -1,4 +1,5 @@
 :: Awake
+<<audio main play>>
 Getting up, you look around and realize that you are surrounded by many unfamiliar faces, none of which being your past crewmates. You are [[alone|Alone]]. 
 <img src="https://media.istockphoto.com/id/518552551/photo/male-silhouette-profile-picture-with-question-mark.jpg?s=612x612&w=0&k=20&c=vCJR4RK29efe_TCPtPdhArezQvp1lcyOMAJ80I8hNOA=" width = "500" height = "400">
 

@@ -11,4 +11,4 @@ A Pirates life for Me
 
 :: StoryInit
 <<set $myVariable to 1>>
-<<cacheaudio "main" "output/media/piratemusic.mp3">>
+<<cacheaudio "main" "media/piratemusic.mp3">>
