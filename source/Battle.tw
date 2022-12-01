@@ -107,9 +107,8 @@ The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.
 <<set $randomNumber = Math.floor(Math.random()*11)>>
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-<<if $attack > $randomNumber>>
+<<if $attack >= $randomNumber>>
 You pull up beside them and begin firing.
-
 <<if $attack > $randomNumber + 2>>
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 <</if>>
