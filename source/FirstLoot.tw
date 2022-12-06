@@ -51,11 +51,13 @@ You [[pull|Opens Door]] it and the cavern begins to rumble.
 <<if $help == false>>
 You realize its a bit too heavy. This may be a job for more than one. You[[step back.|Regroup]]
 <</if>>
+<img src="https://t4.ftcdn.net/jpg/01/72/82/33/360_F_172823321_7aDxS2BhLlObYuUdKNLnCtusUnhmDhMB.jpg" width = "500" height = "500">
 
 :: Converse
 You walk over to the captain and the remaining crew and let them know what you're thinking. You think it may work best to work as a team and suggest going in pairs.
 <<set $help to true>>
 You [[walk|Regroup]] over to the door.
+<img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/01/25/13/pirates.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart" width = "500" height = "500">
 
 :: Opens Door
 The massive door begins to roll out of the way exposing the other side.
