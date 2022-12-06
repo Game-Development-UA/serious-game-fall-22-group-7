@@ -115,18 +115,18 @@ The waves begin to rock your boat and you [[grip|Fight]] tight onto the wheel.
 <img src="https://michaelleppert.com/wp-content/uploads/2020/04/boatsteering.jpg" width = "500" height = "500">
 
 :: Fight
-<<set $randomNumber = Math.floor(Math.random()*11)>>
+<<set $randomAttack = Math.floor(Math.random()*11)>>
 With all your strength you spin the wheel and turn to face the enemy.
 You line up your ship to come up on their side.
-<<if $attack >= $randomNumber>>
+<<if $attack >= $randomAttack>>
 You pull up beside them and begin firing.
-<<if $attack > $randomNumber + 2>>
+<<if $attack > $randomAttack + 2>>
 Your attack shreds through their hull but they begin boarding your ship and you and the crew [[back up.|Boarding Attack]]
 <</if>>
 <<else>>
 You do significant damage and defend the ship. You pull away to regroup for a [[second attack.|Second Attack]]
 <</if>>
-<<if $attack < $randomNumber>>
+<<if $attack < $randomAttack>>
 You try to fire the cannons but quickly realize you do not have enough fire power to take them out.
 You take a couple shots and turn away to [[regroup.|Speedy Escape]] 
 <</if>>
@@ -186,13 +186,17 @@ You slash the rival and send him over the ship before catching the captain and [
 
 
 :: Speedy Escape
+<<set $randomSpeed = Math.floor(Math.random()*11)>>
+<<if $randomSpeed <= $speed>>
 After trying mutliple quick passes you realize you need to flee.
 You point the sails in the direction of the wind and prepare to leave but realize the enemy ship is coming straight at you one last time.
 You brace for impact as they tear through the back of the ship.
 You run to the lower deck where you see the captain and many injured sailers.
 The captain has a large piece of wood that impaled him and [[calls you over.|Death]]
-
-
+<</if>>
+<<else>>
+You quickly realize you are outmatched and attempt to flee. The winds are not in your favor and the enemy ship catches up to you.
+They get beside your ship and begin [[swinging across|Boarding Attack]].
 
 :: Second Attack
 You continue your cannon assault and sink the other ship.
