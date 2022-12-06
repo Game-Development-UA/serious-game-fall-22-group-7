@@ -49,7 +49,7 @@ You motion over the captain and begin moving the rocks until you see a small lev
 You [[pull|Opens Door]] it and the cavern begins to rumble.
 <</if>>
 <<if $help == false>>
-You realize its a bit too heavy. This may be a job for more than one. You[[step back.|Regroup]]
+You realize its a bit too heavy. This may be a job for more than one. You [[step back.|Regroup]]
 <</if>>
 <img src="https://t4.ftcdn.net/jpg/01/72/82/33/360_F_172823321_7aDxS2BhLlObYuUdKNLnCtusUnhmDhMB.jpg" width = "500" height = "500">
 
